@@ -18,3 +18,5 @@ References
   https://stackoverflow.com/questions/2998784/how-to-output-numbers-with-leading-zeros-in-javascript
 - Add sound
   https://www.geeksforgeeks.org/how-to-make-a-beep-sound-in-javascript/
+- SetInterval SetTimeout
+  https://ko.javascript.info/settimeout-setinterval

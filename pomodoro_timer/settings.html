@@ -1,0 +1,22 @@
+<header>    
+    <script>
+        function applySettings(){
+            let form = document.forms['settings'];
+            let time_update = form.time_min.value;
+            console.log(opener)
+            debugger;
+            opener.applySettings(time_update); // opener : 이 window를 열은 parent window 지칭? 함수들 보임
+            alert("New settings confirmed");
+            window.close();
+        }
+    </script>
+</header>
+
+<body>
+    <h1>Pomodoro Settings</h1>
+    <form onsubmit=applySettings() method="GET" name="settings">
+        <label for="miniute">Miniute</label>
+        <input type="range" id="time_min" value="25" min="0" max="60">
+        <input type="submit">
+    </form>
+</body>

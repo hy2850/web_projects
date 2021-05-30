@@ -10,6 +10,7 @@
         <div style = "display:flex; justify-content: center;">
             <button class = "button" onClick = "countDown()"> Start </button>
             <button class = "button" onClick = "reset()"> Reset </button>
+            <button class = "button" onClick = "openSettings()"> Settings </button>
         </div>
     </div>
 
@@ -59,6 +60,19 @@
         function beep() {
             var audio = new Audio('bell.mp3');
             audio.play();
+        }
+
+        function openSettings(){
+            let url = "settings.html";
+            let option = "resizeable=no, scrollbars=no, status=no, width=500, height=500";
+            let newWin = window.open(url, 'option', option);
+            console.log(newWin)
+        }
+
+        function applySettings(time_update){
+            init_time = Math.floor(time_update*MINIUTE);
+            console.log(`Updated time : ${init_time}`);
+            update_time(init_time);
         }
     </script>
 </body>
