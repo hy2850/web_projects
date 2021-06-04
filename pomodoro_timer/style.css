@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.timerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: solid black 1px;
+  padding-bottom: 5px;
+  margin-top: 50px;
+  width: 40%;
+}
+
+.buttonSet {
+  display: flex;
+  justify-content: center;
+}
