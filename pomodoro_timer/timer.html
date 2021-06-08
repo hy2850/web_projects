@@ -1,5 +1,8 @@
 <head>    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal-settings.css">
+    <script defer src="timer.js"></script>
+    <script defer src="modal-settings.js"></script>
 </head>
 
 <body>
@@ -11,11 +14,28 @@
             <div class = "buttonSet">
                 <button class = "button" onClick = "countDown()"> Start </button>
                 <button class = "button" onClick = "reset()"> Reset </button>
-                <button class = "button" onClick = "openSettings()"> Settings </button>
+                <button class = "button" data-modal-target = "#modal"> Settings </button>
+                <!-- For multiple timer components, need different setting for each component-->
             </div>
         </div>
     </div>
 
-    <script src="timer.js"></script>
-    <script src="settings.js"></script>
+    <!-- Settings modal -->
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <span class="title">Pomodoro Settings</span>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="settings">
+                <form class="settings-form">
+                    <label for="miniute">Miniute</label>
+                    <input type="number" id="time-min" name="time_min" step="1" min="1" value="25">
+                </form>
+            </div>
+            <button class="settings-save" onclick="saveSettings()" data-close-button>save</button>  
+        </div>
+    </div>
+    <!-- Background when modal opens -->
+    <div id="overlay"></div> 
 </body>
