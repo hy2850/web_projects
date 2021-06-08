@@ -1,19 +1,52 @@
 function applySettings(time_update){
-    init_time = Math.floor(time_update*MINIUTE);
+    let t = 0;
+    for(const elem of time_update){
+        if (elem.type == 'min')
+            t += parseInt(elem.val, 10) * MINIUTE;
+        else if (elem.type == 'sec')
+            t += parseInt(elem.val, 10);
+    }
+    init_time = t;
     console.log(`Updated time : ${init_time}`);
     update_time(init_time);
 
     // -- Add extra setting options --
 }
 
+function isTimeValid(id, valstr){
+    let t = parseInt(valstr, 10);
+    if (id == 'min' && (t < 0 || t >= 100)){
+        alert("Miniute must be between 0 and 99");
+        return false;
+    }
+    else if (id == 'sec' && (t < 0 || t > 60)){
+        alert("Second must be between 0 and 60");
+        return false;
+    }
+    return true;
+}
+
 function saveSettings(){
-    let formData = new FormData(document.querySelector('.settings form'));
-    let time_update = formData.get("time_min");
+    let formData = document.querySelectorAll('.settings-input-time input');
+    let time_info = [];
+    
+    // Validity check
+    for(const inp of formData){
+        if(!isTimeValid(inp.id, inp.value))
+            return;
+    }
+
+    formData.forEach(inp => {
+        time_info.push({
+            type: inp.id,
+            val: inp.value
+        });
+    })
 
     // -- Add extra setting options --
 
     alert("New settings saved");
-    applySettings(time_update);
+    applySettings(time_info);
 }
 
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
@@ -37,6 +70,12 @@ closeModalButtons.forEach(button => {
     })
 })
 
+overlay.addEventListener('click', ()=>{
+    const modals = document.querySelectorAll('.modal.active');
+    modals.forEach(modal => {
+        closeModal(modal);
+    })
+})
 
 // Simply modify class of the target element to implement open/close
 function openModal(modal){
