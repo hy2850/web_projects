@@ -4,15 +4,32 @@
   box-sizing: border-box;
 }
 
-h1 {
-  text-align: center;
-  position: relative;
-  top: 30px;
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: solid gray 1px;
+  background-color: whitesmoke;
+}
+
+.header .title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.header button.toggle-long {
+  color: whitesmoke;
+  border: solid black 0.5px;
+  background-color: darkgray;
+}
+.header button.toggle-long:hover {
+  background-color: rgb(77, 75, 70);
 }
 
 .wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .timerBox {
@@ -29,4 +46,12 @@ h1 {
 .buttonSet {
   display: flex;
   justify-content: center;
+}
+
+/* Toggle long timer */
+.timerBox[data-long] {
+  transform: scale(0);
+}
+.timerBox[data-long].active {
+  transform: scale(1);
 }

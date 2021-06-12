@@ -3,13 +3,41 @@
     <link rel="stylesheet" href="modal-settings.css">
     <script defer src="timer.js"></script>
     <script defer src="modal-settings.js"></script>
+
+    <script>
+        toggleLongTimer = () => {
+            // console.log("Long-time no see!");
+            
+            const longTimer = document.querySelector('.timerBox[data-long]')
+            const isOn = longTimer.classList.toggle("active");
+            if(isOn){
+                // Stop and reset timer (prevent running in the backgroun)
+            }
+        }
+    </script>
+
 </head>
 
 <body>
-    <h1>Pomodoro Timer Plus+</h1>
+    <div class="header">
+        <span class="title">Pomodoro Timer Plus+</span>
+        <button class="toggle-long" onClick = "toggleLongTimer()">Long-Timer</button>
+    </div>
+
     <div class  = "wrapper">
         <!-- Can be multiple timerBox components under wrapper -->
-        <div class = "timerBox">
+        <div class = "timerBox" data-short>
+            <p id="timer">A</p>
+            <div class = "buttonSet">
+                <button class = "button" onClick = "countDown()"> Start </button>
+                <button class = "button" onClick = "reset()"> Reset </button>
+                <button class = "button" data-modal-target = "#modal"> Settings </button>
+                <!-- For multiple timer components, need different setting for each component-->
+            </div>
+        </div>
+
+        <!-- Second timer for long-cycle -->
+        <div class = "timerBox" data-long>
             <p id="timer">A</p>
             <div class = "buttonSet">
                 <button class = "button" onClick = "countDown()"> Start </button>
