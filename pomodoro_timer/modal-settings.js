@@ -47,6 +47,10 @@ function saveSettings(){
 
     alert("New settings saved");
     applySettings(time_info);
+
+    // Close modal window
+    modal = document.querySelector('#modal');
+    closeModal(modal);
 }
 
 const openModalButtons = document.querySelectorAll('[data-modal-target]')

@@ -60,6 +60,11 @@
   flex-direction: column;
   padding: 0px 5px 15px;
 }
+.settings-input-time input {
+  width: 80px;
+  height: 30px;
+  font-size: medium;
+}
 
 /* save button */
 .modal-body button.settings-save {
