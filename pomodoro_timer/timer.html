@@ -8,7 +8,7 @@
         toggleLongTimer = () => {
             // console.log("Long-time no see!");
             
-            const longTimer = document.querySelector('.timerBox[data-long]')
+            const longTimer = document.querySelector('.timerBox[data-long]');
             const isOn = longTimer.classList.toggle("active");
             if(isOn){
                 // Stop and reset timer (prevent running in the backgroun)
@@ -29,8 +29,8 @@
         <div class = "timerBox" data-short>
             <p id="timer">A</p>
             <div class = "buttonSet">
-                <button class = "button" onClick = "countDown()"> Start </button>
-                <button class = "button" onClick = "reset()"> Reset </button>
+                <button class = "button start"> Start </button>
+                <button class = "button reset"> Reset </button>
                 <button class = "button" data-modal-target = "#modal"> Settings </button>
                 <!-- For multiple timer components, need different setting for each component-->
             </div>
@@ -40,8 +40,8 @@
         <div class = "timerBox" data-long>
             <p id="timer">A</p>
             <div class = "buttonSet">
-                <button class = "button" onClick = "countDown()"> Start </button>
-                <button class = "button" onClick = "reset()"> Reset </button>
+                <button class = "button start"> Start </button>
+                <button class = "button reset"> Reset </button>
                 <button class = "button" data-modal-target = "#modal"> Settings </button>
                 <!-- For multiple timer components, need different setting for each component-->
             </div>
