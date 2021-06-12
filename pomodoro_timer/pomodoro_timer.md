@@ -5,16 +5,18 @@ Simple timer tool to maximize productivity
 
 To-do
 
-- Design (Buttons, clock, ...)
-- User time setting  
-  (Preserve settings even when refreshed -> use **browser cache**?)
-- Add one more clock → long-cycle (45min+) clock
-  (Dual clock feature, each running separately)
-  **(Componentize using React)**
-- Short Break (1st clock), Long break (2nd clock)
-  (Also give user option to set break time?)
-
-</br>
+- [ ] Design (Buttons, clock, ...)
+- [x] <span style="color:blue">[12June21]</span> User time setting
+  - [ ] (Preserve settings even when refreshed -> use **browser cache**?)
+- [ ] Add one more clock → long-cycle (45min+) clock
+      (Dual clock feature, each running separately)
+      **(Componentize using React)**
+- [ ] Short Break (1st clock), Long break (2nd clock)
+  - [ ] Also give user option to set break time?)
+- [ ] Night mode (white -> black, black -> white)
+- [ ] Resting time
+- [ ] Auto-start
+      </br>
 
 Problem
 
