@@ -38,6 +38,8 @@
   align-items: center;
 
   border: solid black 1px;
+  border-radius: 15px;
+
   padding-bottom: 5px;
   margin-top: 50px;
   width: 40%;
@@ -46,6 +48,9 @@
 .buttonSet {
   display: flex;
   justify-content: center;
+}
+.buttonSet .button {
+  margin: 1px;
 }
 
 /* Toggle long timer */

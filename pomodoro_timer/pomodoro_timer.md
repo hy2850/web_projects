@@ -16,11 +16,17 @@ To-do
 - [ ] Night mode (white -> black, black -> white)
 - [ ] Resting time
 - [ ] Auto-start
-      </br>
+- [ ] Toggle 'start' or create 'stop' to pause the timer
+
+Limited to two timers (further work : react componentize to create more than two timers)
+
+</br>
 
 Problem
 
 - Settings) For multiple timer components, need different setting for each component
+
+- Time setting changes is not applied while the timer is on.
 
 </br>
 
