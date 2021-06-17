@@ -33,19 +33,23 @@ update_time(init_time[LONG], LONG);
 
 let didStart = [false, false]; // only respond to 'start' when started == false
 let refreshInterval = [null, null] // setInterval ID for clearing
+let tmp_time = [0, 0] // separate time for each clock (for countDown function)
 function countDown(clockIdx = SHORT){
     if (didStart[clockIdx]) return;
     else didStart[clockIdx] = true;
 
-    time = init_time[clockIdx];
+    tmp_time[clockIdx] = init_time[clockIdx];
     refreshInterval[clockIdx] = setInterval(() => {
-        if(time == 0) {
+        if(tmp_time[clockIdx] == 0) {
             beep();
             reset(clockIdx);
             return;
         }
-        time--;
-        update_time(time, clockIdx);        
+        tmp_time[clockIdx]--;
+        
+        console.log(`${clockIdx} : ${tmp_time[clockIdx]}`);
+
+        update_time(tmp_time[clockIdx], clockIdx);        
     }, 1000);
 } 
 
