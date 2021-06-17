@@ -8,9 +8,13 @@
         toggleLongTimer = () => {
             const longTimer = document.querySelector('.timerBox[data-long]');
             const isOn = longTimer.classList.toggle("active");
-            if(!isOn){
+            if(isOn){
+                TIMER_CNT++;
+            }
+            else{
                 // Stop and reset timer (prevent running in the backgroun)
                 reset(LONG);
+                TIMER_CNT--;
             }
         }
     </script>
@@ -28,6 +32,7 @@
             <p id="timer">SHORT</p>
             <div class = "buttonSet">
                 <button class = "button start"> Start </button>
+                <button class = "button pause"> Pause </button>
                 <button class = "button reset"> Reset </button>
                 <button class = "button" data-modal-target = "SHORT"> Settings </button>
                 <!-- For multiple timer components, need different setting for each component-->
@@ -39,6 +44,7 @@
             <p id="timer">LONG</p>
             <div class = "buttonSet">
                 <button class = "button start"> Start </button>
+                <button class = "button pause"> Pause </button>
                 <button class = "button reset"> Reset </button>
                 <button class = "button" data-modal-target = "LONG"> Settings </button>
                 <!-- For multiple timer components, need different setting for each component-->
