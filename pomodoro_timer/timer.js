@@ -2,7 +2,7 @@
 const MINIUTE = 60;
 const SHORT = 0, LONG = 1;
 let TIMER_CNT = 1;
-let init_time = [Math.floor(25*MINIUTE), Math.floor(60*MINIUTE)]
+let init_time = [Math.floor(15*MINIUTE), Math.floor(50*MINIUTE)]
 //let init_time = [Math.floor(3), Math.floor(10)] // DEBUGGING
 
 let didStart = [false, false]; // only respond to 'start' when started == false
@@ -99,10 +99,11 @@ function pause(clockIdx = SHORT){
 }
 
 
-// Adding keyboard Keydown - 'Space' toggle
-// Start all timer, if none are started
-// Pause all timer, if any are started
+// Adding keyboard Keydown
 document.addEventListener('keydown', (evt)=>{
+    // 'Space' toggle
+    // Start all timer, if none are started
+    // Pause all timer, if any are started
     if(evt.code == "Space"){
         // console.log(evt);
 
@@ -123,12 +124,10 @@ document.addEventListener('keydown', (evt)=>{
             for(idx = 0; idx < TIMER_CNT; idx++){
                 if(!didStart[idx]) countDown(idx);
             }
-
-            /*
-            didStart.map((startFlag, idx)=>{
-                if(!startFlag) countDown(idx);
-            })
-            */
         }
+    }
+    // 'R' reset
+    else if(evt.code == "KeyR"){
+        reset(0); reset(1);
     }
 });

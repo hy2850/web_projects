@@ -106,3 +106,13 @@ function closeModal(modal){
     modal.classList.remove('active')
     overlay.classList.remove('active')
 }
+
+
+// Adding keyboard Keydown - 'Enter' toggle
+// Save settings
+document.addEventListener('keydown', (evt)=>{
+    if(overlay.classList.contains('active') 
+        && (evt.code == "Enter" || evt.code == "Space")){
+        saveSettings();
+    }
+});
