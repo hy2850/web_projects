@@ -45,13 +45,21 @@
   width: 40%;
 }
 
+p#timer {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
 /* Start, Pause, Reset, Settings buttons*/
 .buttonSet {
   display: flex;
   justify-content: center;
 }
 .buttonSet .button {
-  margin: 1px;
+  border-radius: 5px;
+  margin-left: 3px;
+  width: 100px;
+  height: 30px;
 }
 
 .buttonSet .button.start:hover,
@@ -65,11 +73,11 @@
 
 .buttonSet .button.pause:hover,
 .buttonSet .button.pause:focus {
-  background-color: rgb(158, 12, 15);
+  background-color: rgb(133, 13, 13);
 }
 .buttonSet .button.pause {
-  background-color: rgb(158, 12, 15);
-  border-color: rgb(198, 16, 19);
+  background-color: rgb(170, 12, 15);
+  border-color: rgb(221, 25, 28);
 }
 
 .buttonSet .button.secondary {
