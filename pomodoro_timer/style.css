@@ -45,12 +45,37 @@
   width: 40%;
 }
 
+/* Start, Pause, Reset, Settings buttons*/
 .buttonSet {
   display: flex;
   justify-content: center;
 }
 .buttonSet .button {
   margin: 1px;
+}
+
+.buttonSet .button.start:hover,
+.buttonSet .button.start:focus {
+  background-color: rgb(55, 98, 21);
+}
+.buttonSet .button.start {
+  background-color: rgb(74, 131, 28);
+  border-color: rgb(101, 179, 39);
+}
+
+.buttonSet .button.pause:hover,
+.buttonSet .button.pause:focus {
+  background-color: rgb(158, 12, 15);
+}
+.buttonSet .button.pause {
+  background-color: rgb(158, 12, 15);
+  border-color: rgb(198, 16, 19);
+}
+
+.buttonSet .button.secondary {
+  background-color: rgb(36, 39, 41);
+  color: rgb(214, 210, 205);
+  border-color: rgb(65, 70, 73);
 }
 
 /* Toggle long timer */
