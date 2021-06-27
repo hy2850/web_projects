@@ -68,16 +68,18 @@
 
 /* save button */
 .modal-body button.settings-save {
-  background-color: rgb(36, 39, 41);
-  border-color: rgb(65, 70, 73);
+  background-color: white;
+  border: 1px solid #c3c3c3;
+  color: #1d1d1d;
   border: 0.1px solid;
+  border-radius: 5px;
 
   width: 100px;
   height: 30px;
   cursor: pointer;
 }
 .modal-body button.settings-save:hover {
-  background-color: #ffffff;
+  background-color: rgb(209, 209, 209);
 }
 
 /*==============================================*/
