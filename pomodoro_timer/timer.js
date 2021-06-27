@@ -3,7 +3,7 @@ const MINIUTE = 60;
 const SHORT = 0, LONG = 1;
 let TIMER_CNT = 1;
 let init_time = [Math.floor(15*MINIUTE), Math.floor(50*MINIUTE)]
-//let init_time = [Math.floor(3), Math.floor(10)] // DEBUGGING
+//let init_time = [Math.floor(3), Math.floor(1)] // DEBUGGING
 
 let didStart = [false, false]; // only respond to 'start' when started == false
 let refreshInterval = [null, null]; // setInterval ID for clearing
@@ -38,8 +38,8 @@ timer = [short_box.querySelector('#timer'), long_box.querySelector('#timer')];
 //======================================================
 // Main functions
 let update_time = (time, clockIdx = SHORT)=>{ 
-    var min = Math.floor(time/MINIUTE); min = min.toString();
-    var sec = time%MINIUTE; sec = sec.toString();
+    let min = Math.floor(time/MINIUTE); min = min.toString();
+    let sec = time%MINIUTE; sec = sec.toString();
     timer[clockIdx].innerHTML = min.padStart(2, '0') + ":" + sec.padStart(2, '0');
 }        
 // init clock
@@ -55,7 +55,7 @@ function countDown(clockIdx = SHORT){
     cur_time[clockIdx] = check_time == -1 ? init_time[clockIdx] : check_time;
     refreshInterval[clockIdx] = setInterval(() => {
         if(cur_time[clockIdx] == 0) {
-            beep();
+            beep(clockIdx);
             reset(clockIdx);
             return;
         }
@@ -84,9 +84,24 @@ function reset(clockIdx = SHORT, doPause = false){
 } 
 
 
-function beep() {
-    var audio = new Audio('bell.mp3');
-    audio.play();
+function beep(clockIdx = SHORT) {
+    let audio;
+    if (clockIdx == SHORT)
+        audio = new Audio('bell.mp3');
+    else if (clockIdx == LONG)
+        audio = new Audio('bell-long.mp3')
+
+    audio.play(); 
+    let vol = 1;
+    let fadeout = setInterval(()=>{
+          if (vol > 0) {
+            vol -= 0.05;
+            audio.volume = vol;
+          }
+          else {
+            clearInterval(fadeout);
+          }
+    }, 300); // ms
 }
 
 
