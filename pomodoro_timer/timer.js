@@ -44,8 +44,20 @@ let update_time = (time, clockIdx = SHORT)=>{
     timer[clockIdx].innerHTML = min.padStart(2, '0') + ":" + sec.padStart(2, '0');
 }        
 // init clock
-update_time(init_time[SHORT], SHORT);
-update_time(init_time[LONG], LONG);
+(()=>{
+    // localStorage.clear();
+    example = {}
+    let cache = [localStorage.getItem('short-json'), localStorage.getItem('long-json')]
+    for(idx = 0; idx < 2; idx++){
+        data = cache[idx];
+        if (data){
+            data = JSON.parse(data);
+            init_time[idx] = data.timer_time;
+        } 
+    }
+    update_time(init_time[SHORT], SHORT);
+    update_time(init_time[LONG], LONG);
+})();
 
 
 function countDown(clockIdx = SHORT){
