@@ -4,15 +4,35 @@
   box-sizing: border-box;
 }
 
-h1 {
-  text-align: center;
-  position: relative;
-  top: 30px;
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: solid gray 1px;
+  background-color: whitesmoke;
+}
+
+.header .title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.header button.toggle-long {
+  border: solid black 0.5px;
+  background-color: #cccccbee;
+  border-radius: 5px;
+
+  color: black;
+  font-weight: bold;
+}
+.header button.toggle-long:hover {
+  background-color: rgb(182, 182, 182);
 }
 
 .wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .timerBox {
@@ -21,12 +41,69 @@ h1 {
   align-items: center;
 
   border: solid black 1px;
+  border-radius: 15px;
+
   padding-bottom: 5px;
   margin-top: 50px;
+
   width: 40%;
 }
 
+p#timer {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* Start, Pause, Reset, Settings buttons*/
 .buttonSet {
   display: flex;
   justify-content: center;
+
+  width: 80%;
+}
+.buttonSet .button {
+  border-radius: 5px;
+  margin-left: 3px;
+
+  width: 25%;
+  height: 30px;
+
+  cursor: pointer;
+}
+
+.buttonSet .button.start:hover,
+.buttonSet .button.start:focus {
+  background-color: rgb(55, 98, 21);
+}
+.buttonSet .button.start {
+  background-color: rgb(74, 131, 28);
+  border-color: rgb(101, 179, 39);
+  color: white;
+}
+
+.buttonSet .button.pause:hover,
+.buttonSet .button.pause:focus {
+  background-color: rgb(133, 13, 13);
+}
+.buttonSet .button.pause {
+  background-color: rgb(170, 12, 15);
+  border-color: rgb(221, 25, 28);
+  color: white;
+}
+
+.buttonSet .button.secondary:hover {
+  background-color: rgb(180, 180, 180);
+}
+.buttonSet .button.secondary {
+  background-color: #e9e9e9;
+  border: 1px solid #c3c3c3;
+  color: #1d1d1d;
+}
+
+/* Toggle long timer */
+.timerBox[data-long] {
+  transform: scale(0);
+}
+.timerBox[data-long].active {
+  transform: scale(1);
 }

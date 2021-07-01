@@ -1,3 +1,5 @@
+let current_clockIdx = SHORT;
+
 function applySettings(time_update){
     let t = 0;
     for(const elem of time_update){
@@ -6,11 +8,14 @@ function applySettings(time_update){
         else if (elem.type == 'sec')
             t += parseInt(elem.val, 10);
     }
-    init_time = t;
-    console.log(`Updated time : ${init_time}`);
-    update_time(init_time);
+
+    init_time[current_clockIdx] = t;
+    console.log(`Updated time (seconds) : ${init_time[current_clockIdx]}`);
+    update_time(t, current_clockIdx);
 
     // -- Add extra setting options --
+
+    reset(current_clockIdx);
 }
 
 function isTimeValid(id, valstr){
@@ -61,9 +66,18 @@ const overlay = document.getElementById('overlay');
 // Add open/close modal event listener to all designated open/close buttons
 // In case there are multiple buttons to open/close the modal
 openModalButtons.forEach(button => {
-    button.addEventListener('click', ()=>{
-        console.log(button.dataset);
-        const modal = document.querySelector(button.dataset.modalTarget) // #modal
+    button.addEventListener('click', (evt)=>{
+        const modal = document.querySelector("#modal")    
+
+        // clicked by short/long timer
+        let whichTimer = button.dataset.modalTarget; 
+        if(whichTimer == "SHORT")
+            current_clockIdx = SHORT
+        else if(whichTimer == "LONG")
+            current_clockIdx = LONG
+
+        // -- Add more timers if needed --
+
         openModal(modal)
     })
 })
@@ -92,3 +106,13 @@ function closeModal(modal){
     modal.classList.remove('active')
     overlay.classList.remove('active')
 }
+
+
+// Adding keyboard Keydown - 'Enter' toggle
+// Save settings
+document.addEventListener('keydown', (evt)=>{
+    if(overlay.classList.contains('active') 
+        && (evt.code == "Enter" || evt.code == "Space")){
+        saveSettings();
+    }
+});
