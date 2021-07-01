@@ -5,8 +5,9 @@ let TIMER_CNT = 1;
 let init_time = [Math.floor(15*MINIUTE), Math.floor(50*MINIUTE)]
 //let init_time = [Math.floor(3), Math.floor(1)] // DEBUGGING
 
-let didStart = [false, false]; // only respond to 'start' when started == false
+let didStart = [false, false]; // used in 'start response' and 'pause' function
 let refreshInterval = [null, null]; // setInterval ID for clearing
+let onBreak = [false, false]; // check break mode : used in countDown, reset
 
 // separate time for each clock (for countDown function)
 // invariant : -1 for reset, otherwise for pause
@@ -29,8 +30,8 @@ long_pause.onclick = ()=>{pause(LONG)};
 
 const short_reset = short_box.querySelector('.button.reset');
 const long_reset = long_box.querySelector('.button.reset');
-short_reset.onclick = ()=>{reset(SHORT)};
-long_reset.onclick = ()=>{reset(LONG)};
+short_reset.onclick = ()=>{onBreak[SHORT] = false; reset(SHORT)};
+long_reset.onclick = ()=>{onBreak[LONG] = false; reset(LONG)};
 
 timer = [short_box.querySelector('#timer'), long_box.querySelector('#timer')];
 
@@ -51,12 +52,15 @@ function countDown(clockIdx = SHORT){
     if (didStart[clockIdx]) return;
     else didStart[clockIdx] = true;
 
-    const check_time = cur_time[clockIdx];
-    cur_time[clockIdx] = check_time == -1 ? init_time[clockIdx] : check_time;
+    const check_time = cur_time[clockIdx]; // if -1 (init) : start new timer, else : resume from pause
+    if (check_time == -1) cur_time[clockIdx] = onBreak[clockIdx] ? init_break[clockIdx] : init_time[clockIdx];
+
     refreshInterval[clockIdx] = setInterval(() => {
         if(cur_time[clockIdx] == 0) {
             beep(clockIdx);
+            onBreak[clockIdx] = !onBreak[clockIdx]; // toggle break status
             reset(clockIdx);
+            if (onBreak[clockIdx]) countDown(clockIdx); // start break
             return;
         }
         cur_time[clockIdx]--;
@@ -72,6 +76,7 @@ function countDown(clockIdx = SHORT){
 
 
 function reset(clockIdx = SHORT, doPause = false){
+    // Stop 'setInterval'
     clearInterval(refreshInterval[clockIdx]);
     refreshInterval[clockIdx] = null;    
     didStart[clockIdx] = false;
@@ -79,7 +84,7 @@ function reset(clockIdx = SHORT, doPause = false){
     // resetting, not pause
     if(!doPause) {
         cur_time[clockIdx] = -1;
-        update_time(init_time[clockIdx], clockIdx);
+        update_time(onBreak[clockIdx] ? init_break[clockIdx] : init_time[clockIdx], clockIdx);
     }
 } 
 
@@ -143,6 +148,7 @@ document.addEventListener('keydown', (evt)=>{
     }
     // 'R' reset
     else if(evt.code == "KeyR"){
+        onBreak = [false, false];
         reset(0); reset(1);
     }
 });
