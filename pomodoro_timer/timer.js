@@ -4,6 +4,8 @@ const SHORT = 0, LONG = 1;
 let TIMER_CNT = 1;
 let init_time = [Math.floor(15*MINIUTE), Math.floor(50*MINIUTE)]
 //let init_time = [Math.floor(3), Math.floor(1)] // DEBUGGING
+//let init_break = [Math.floor(1*MINIUTE), Math.floor(10*MINIUTE)]
+let init_break = [Math.floor(3), Math.floor(5)]
 
 let didStart = [false, false]; // used in 'start response' and 'pause' function
 let refreshInterval = [null, null]; // setInterval ID for clearing
@@ -73,6 +75,7 @@ function countDown(clockIdx = SHORT){
             onBreak[clockIdx] = !onBreak[clockIdx]; // toggle break status
             reset(clockIdx);
             if (onBreak[clockIdx]) countDown(clockIdx); // start break
+            // else (option.autostart) countDonw(clockIdx); // option : autostart (Inf Loop? Stack?)
             return;
         }
         cur_time[clockIdx]--;

@@ -13,14 +13,18 @@ To-do
       (Dual clock feature, each running separately)
       **(Componentize using React)**
 - [x] <span style="color:blue">[31June21]</span> Short Break (1st clock), Long break (2nd clock)
-  - [ ] Also give user option to set break time?)
+  - [x] <span style="color:blue">[27July21'R]</span>Also give user option to set break time?)
 - [ ] Night mode (white -> black, black -> white) -> use inbuilt dark mode
-- [ ] Auto-start after each cycle ends
 - [x] <span style="color:blue">[17June21]</span> Toggle 'start' or create 'pause' button to pause the timer
 - [x] <span style="color:blue">[17June21]</span> Keyboard input (space) to toggle start/pause
 - [x] <span style="color:blue">[27June21]</span> Keyboard input ('R') to reset
+  - [ ] 'RR' to revert to the original timer from break-timer
 - [x] <span style="color:blue">[28June21]</span> Different bell for long-timer and fade-out
+- [x] <span style="color:blue">[25July21'R']</span> Auto-start after each cycle ends
+- [x] <span style="color:blue">[25July21'R']</span> Create general settings for both clock
 - [ ] Option in 'Settings', to reset the settings
+- [ ] Option to adjust volume of timer sound
+- [ ] Change time by clicking and re-writing clock itself
 
 Limited to two timers (further work : react componentize to create more than two timers)
 
@@ -60,3 +64,8 @@ References
   https://velog.io/@yijaee/%EB%8B%A4%ED%81%AC%EB%AA%A8%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
 - JSON
   https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON
+
+- slider
+  https://www.w3schools.com/howto/howto_js_rangeslider.asp
+- position:fixed center element (modal)
+  https://stackoverflow.com/questions/2005954/center-a-positionfixed-element
