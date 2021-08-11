@@ -13,7 +13,28 @@ function applySettings(time_update){
     console.log(`Updated time (seconds) : ${init_time[current_clockIdx]}`);
     update_time(t, current_clockIdx);
 
+    
     // -- Add extra setting options --
+
+
+    // Cache the updates to localStorage
+    const key = current_clockIdx == SHORT ? 'short-json' : 'long-json'
+    let cached_data = localStorage.getItem(key);
+    // create new cache
+    if (!cached_data){
+        cached_data = {
+            timer_time: t
+            // -- add new options --
+        }
+    }
+    // update existing cache
+    else{
+        cached_data = JSON.parse(cached_data);
+        cached_data.timer_time = t;
+        // -- add new options --
+    }
+    localStorage.setItem(key, JSON.stringify(cached_data));
+    // console.log(`Cached : ${JSON.stringify(cached_data)}`);
 
     reset(current_clockIdx);
 }
