@@ -1,0 +1,58 @@
+.TOC-button {
+  border: none;
+  border-radius: 3px;
+
+  margin-left: 8px;
+  padding: 2px 3px;
+
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 0.5px;
+
+  background-color: lightgray;
+}
+
+.TOC-button.update {
+  background-color: #4caf50;
+}
+
+.TOC-button.delete {
+  background-color: #f44336;
+}
+
+.CON-button {
+  border-radius: 3px;
+
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  margin-left: 8px;
+  padding: 2px 3px;
+
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 0.5px;
+  font-weight: 400;
+}
+
+.CON-button.create {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.CON-button.update {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.CON-button.delete {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
