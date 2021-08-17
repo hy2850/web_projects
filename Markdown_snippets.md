@@ -1,7 +1,7 @@
 Markdown is not meant as a tool for layout, it is meant to simplify the process of writing for the web ([출저](https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup))
 = 복잡한 layout이 필요하면 티스토리 같은 블로그 사용. 마크다운은 간편한 필기 용도 정도로
 
-<br/>
+<br>
 
 잘 정리된 블로그
 http://taewan.kim/post/markdown/#link
@@ -14,7 +14,7 @@ Obsidian에서는 그냥 Space 누르니까 알아서 맞춰지던데?
 
   ex) 하이&emsp;호&nbsp;호
 
-<br/>
+<br>
 
 * newLine
 ```
@@ -29,12 +29,39 @@ Obsidian에서는 그냥 Space 누르니까 알아서 맞춰지던데?
 * 수평선
 ```---```
 
-<br/>
+<br>
 
 * 링크
 [GOOGLE](http://www.google.co.kr/)
 [NAVER](https://naver.com/ "타이틀 문구")
 <https://github.com/>
+
+<br>
+
+* 색깔
+<span style="color:red">빨</span>
+<span style="color:blue">파</span>
+
+<br>
+
+* [접은 글](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab) - Obsidian에서는 안보이는데, VS code 같은걸로 열어보면 잘 적용되어있음
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
+<br>
+
+* 취소선
+~~취소~~
+
+<br>
 
 ---
 # 기타
