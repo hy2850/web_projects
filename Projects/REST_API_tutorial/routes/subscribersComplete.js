@@ -1,28 +1,27 @@
 const express = require('express');
 const router = express.Router();
-const SubscriberModel = require('../models/subscriber')
+const Subscriber = require('../models/subscriber')
 
 // Getting all
-router.get('/', async (req, res) => {
+router.get('/', async (req, res)=>{
     try {
-        const subscribers = await SubscriberModel.find()
+        const subscribers = await Subscriber.find()
         res.json(subscribers)
     } catch (err) {
-        res.status(500).json({ message: err.message }) // 500 : server error
+        res.status(500).json({ message: err.message }) // it's our fault
     }
 })
-
-// Getting one
-router.get('/:id', getSubscriberWithId, (req, res) => {
-    res.send(res.subscriber)
+// Getting One
+router.get('/:id', getSubscriber, (req, res)=>{
+    res.json(res.subscriber)
     //res.send(res.subscriber.name)
     //res.send(res.params.id)
+    //req.params.id
 })
-
 // Creating one
-router.post('/', async (req, res) => {
-    //console.log(req.body)
-    const subscriber = new SubscriberModel({ 
+router.post('/', async (req, res)=>{
+    console.log(req.body)
+    const subscriber = new Subscriber({ 
         name: req.body.name,
         subscribedToChannel: req.body.subscribedToChannel
     })
@@ -33,9 +32,9 @@ router.post('/', async (req, res) => {
         res.status(400).json({ message:err.message }) // user gave us bad data, so failed
     }
 })
-
-// Updating one
-router.patch('/:id', getSubscriberWithId, async (req, res) => {
+// Updating One
+// put 쓰면 바꾸고 싶은 데이터 말고도 다 바뀌므로 X (https://devuna.tistory.com/77)
+router.patch('/:id', getSubscriber, async (req, res)=>{
     if(req.body.name != null){
         res.subscriber.name = req.body.name
     }
@@ -50,9 +49,8 @@ router.patch('/:id', getSubscriberWithId, async (req, res) => {
         res.status(400).json({message:err.message})
     }
 })
-
-// Deleting one
-router.delete('/:id', getSubscriberWithId, async (req, res) => {
+// Deleting One
+router.delete('/:id', getSubscriber, async (req, res)=>{
     try{
         await res.subscriber.remove()
         res.json({message: 'Deleted Subscriber'})
@@ -62,9 +60,9 @@ router.delete('/:id', getSubscriberWithId, async (req, res) => {
 })
 
 // middle-ware function to get subscriber info
-async function getSubscriberWithId(req, res, next){
+async function getSubscriber(req, res, next){
     try{
-        subscriber = await SubscriberModel.findById(req.params.id)
+        subscriber = await Subscriber.findById(req.params.id)
         if (subscriber == null){
             return res.status(404).json({message : 'Cannot find subscriber'}) // Couldn't find the target
         }
