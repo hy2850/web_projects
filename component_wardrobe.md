@@ -1,3 +1,13 @@
+- React Icons
+![](./img/react-icons.png)
+https://github.com/react-icons/react-icons#configuration
+https://reactnativeelements.com/docs/icon/#reverse
+[Styling](https://stackoverflow.com/questions/56636280/how-to-style-react-icons)
+
+<br>
+
+---
+
 Name of the commonly used component styles gathered
 
 - Modal window
@@ -10,3 +20,12 @@ Name of the commonly used component styles gathered
 - Segmented control (or button group)
   ![](./img/segmented_control.png)
   https://www.reddit.com/r/reactnative/comments/p4wkyk/what_is_the_component_on_the_right_called/
+
+<br>
+
+- Tool-tip
+![](tooltip.png)
+npm install react-tooltip
+https://www.newline.co/@dmitryrogozhny/4-ways-to-show-tooltips-in-react-with-react-tooltip,-material-ui,-bootstrap,-or-semantic-ui--e3473190
+
+  이 정도는 간단하게 직접 만들수도? [링크](https://velog.io/@altmshfkgudtjr/Custom-Tooltip-%EC%A0%9C%EC%9E%91%EA%B8%B0)
