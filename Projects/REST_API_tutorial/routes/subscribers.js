@@ -35,6 +35,7 @@ router.post('/', async (req, res) => {
 })
 
 // Updating one
+// put 쓰면 바꾸고 싶은 데이터 말고도 다 바뀌므로 X (https://devuna.tistory.com/77)
 router.patch('/:id', getSubscriberWithId, async (req, res) => {
     if(req.body.name != null){
         res.subscriber.name = req.body.name

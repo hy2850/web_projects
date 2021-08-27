@@ -18,3 +18,8 @@ https://d2.naver.com/helloworld/9297403#ch2
 serverless
 https://www.youtube.com/results?search_query=serverless
 
+
+<br><br>
+
+연습할거리
+[React window.confirm 기능 구현](https://studyingych.tistory.com/62)

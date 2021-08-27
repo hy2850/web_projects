@@ -1,36 +1,56 @@
+# Moment
+Good docs : https://momentjs.com/docs/
+
+single point in time
+
 const now = moment();
 const specific_date = moment('2017-12-31', 'YYYY-MM-DD');
 
-moment().format(); // to string
+<br>
 
+##### Manipulate
 const added = moment().add(180, 'seconds'); // returns modified moment
 
+* subtract - btw moment  (or duration) and constant amount of time
+diff - btw two moments (or durations)
+
+<br>
+
+##### Display
+moment().format(); // to string
+
+<br>
+
+##### Query (comparison)
+https://stackoverflow.com/questions/22600856/moment-js-date-time-comparison
+
+<br><br>
 
 ## Duration
-duration = moment.duration(curTime * 1000); // ms
- duration.current.subtract(1000, "milliseconds");
- console.log(duration.current.asSeconds());  // conv to seconds
+length of time, **contextless**
+(ex. 1 hour, 360 seconds, 1 month 25 days 4 hours 31 minutes 32 seconds 34 milliseconds)
 
-converting moment to seconds - use duration
+```JS
+duration = moment.duration(curTime * 1000); // ms
+duration.subtract(1000, "milliseconds");
+console.log(duration.asSeconds());  // conv to seconds
+```
+
+
+<br>
+
+* converting moment to seconds - use duration
 ```javascript
 myVar = moment.duration(myVar).asSeconds()
 ```
 
-subtract - btw moment and constant time (or duration)
-diff - btw two moments
-
 
 <br><br>
 
-curTime
-anchorDate
-
-moment()~anchorDate
-diff 만큼 curTime set
-
-setInterval, setTimeOut 써야겠는걸?
 
 
 Hooks와 setInterval
 https://haranglog.tistory.com/10?category=926702
 https://overreacted.io/making-setinterval-declarative-with-react-hooks/
+
+web worker
