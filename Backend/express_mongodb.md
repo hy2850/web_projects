@@ -11,7 +11,9 @@ http.listen(8080, ()=>{
 app.listen(3000, () => console.log('Server started'))
 ```
 
+<br>
 
+express.json = bodyparser의 일종
 https://stackoverflow.com/questions/23259168/what-are-express-json-and-express-urlencoded
 ```
 app.use(express.json())
