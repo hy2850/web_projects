@@ -52,3 +52,22 @@ https://www.newline.co/@dmitryrogozhny/4-ways-to-show-tooltips-in-react-with-rea
  
   [raw js로 구현](https://marshall-ku.tistory.com/307)
 [notifications.js](https://www.cssscript.com/minimal-notification-popup-pure-javascript/#comments)
+
+<br>
+
+* Avatar
+시드 넣어주면 랜덤 아바타 만들어주는 - 간단한 프로젝트에 적격
+![](avatars.jpg)
+[여기서](https://www.youtube.com/watch?v=J5x3OMXjgMc&ab_channel=Fireship) 6분대에서 사용함.
+
+<br>
+
+* inline-toolbar - editor.js
+![](inline-toolbar.jpg)
+https://editorjs.io/enable-inline-toolbar
+
+<br>
+
+* block settings - editor.js
+![](block-settings.png)
+https://editorjs.io/making-a-block-settings
