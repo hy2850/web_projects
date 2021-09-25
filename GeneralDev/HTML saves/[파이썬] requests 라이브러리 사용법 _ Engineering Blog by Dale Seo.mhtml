@@ -1,0 +1,1791 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.daleseo.com/python-requests/
+Subject: =?utf-8?Q?[=ED=8C=8C=EC=9D=B4=EC=8D=AC]=20requests=20=EB=9D=BC=EC=9D=B4?=
+ =?utf-8?Q?=EB=B8=8C=EB=9F=AC=EB=A6=AC=20=EC=82=AC=EC=9A=A9=EB=B2=95=20|?=
+ =?utf-8?Q?=20Engineering=20Blog=20by=20Dale=20Seo?=
+Date: Sat, 25 Sep 2021 00:32:16 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----"
+
+
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/html
+Content-ID: <frame-1124D149DA95F5C9F3CAAADEFC92258B@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.daleseo.com/python-requests/
+
+<!DOCTYPE html><html lang=3D"ko" data-darkreader-mode=3D"dynamic" data-dark=
+reader-scheme=3D"dark" data-react-helmet=3D"lang"><head><meta http-equiv=3D=
+"Content-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"styleshe=
+et" type=3D"text/css" href=3D"cid:css-a7d26d19-6b3f-4703-b23e-287d5d31d702@=
+mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d=
+c384ebb-3d43-4c63-ab94-e3d7904462a4@mhtml.blink" /><link rel=3D"stylesheet"=
+ type=3D"text/css" href=3D"cid:css-cf80c815-57d0-4067-8b29-d29c041c44da@mht=
+ml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-1be5=
+ec1a-89c5-4750-b372-29b2b31e583a@mhtml.blink" /><link rel=3D"stylesheet" ty=
+pe=3D"text/css" href=3D"cid:css-b2b5291a-f0d7-4cb2-844a-311dc6fffe07@mhtml.=
+blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-4daddf8=
+a-30ba-40d5-928e-a43bedfe5949@mhtml.blink" /><link rel=3D"stylesheet" type=
+=3D"text/css" href=3D"cid:css-72a5c88e-0356-491b-aaf7-70f2f4c326e0@mhtml.bl=
+ink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-9ca02e03-=
+a395-4037-a35e-a2b1a81988f8@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-76a1792a-d3ea-4cb4-896d-9b1605518628@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-8dbf25bb-19c=
+4-412c-b477-0a7f5c5b2832@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-f7d7ffca-8280-45c4-8c86-55cd0f3fa956@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ad2c75d1-911c-4=
+097-8b4a-f43cfa47a437@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-9b17281d-82ec-40ca-909a-b38d067974ce@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-0c57ccde-d855-44d2=
+-a288-28eaf21276b0@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-471786e0-e846-4b87-9bbd-dee71cadf71b@mhtml.blink" /><link=
+ rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-b1388191-bee6-475a-ba=
+78-92d18686fcb3@mhtml.blink" /><meta http-equiv=3D"x-ua-compatible" content=
+=3D"ie=3Dedge"><meta name=3D"viewport" content=3D"width=3Ddevice-width, ini=
+tial-scale=3D1, shrink-to-fit=3Dno"><meta name=3D"generator" content=3D"Gat=
+sby 3.11.1"><title>[=ED=8C=8C=EC=9D=B4=EC=8D=AC] requests =EB=9D=BC=EC=9D=
+=B4=EB=B8=8C=EB=9F=AC=EB=A6=AC =EC=82=AC=EC=9A=A9=EB=B2=95 | Engineering Bl=
+og by Dale Seo</title><meta data-react-helmet=3D"true" name=3D"description"=
+ content=3D"Engineering Blog by Dale Seo"><meta data-react-helmet=3D"true" =
+property=3D"og:title" content=3D"[=ED=8C=8C=EC=9D=B4=EC=8D=AC] requests =EB=
+=9D=BC=EC=9D=B4=EB=B8=8C=EB=9F=AC=EB=A6=AC =EC=82=AC=EC=9A=A9=EB=B2=95"><me=
+ta data-react-helmet=3D"true" property=3D"og:description" content=3D"Engine=
+ering Blog by Dale Seo"><meta data-react-helmet=3D"true" property=3D"og:typ=
+e" content=3D"website"><link rel=3D"icon" href=3D"https://www.daleseo.com/f=
+avicon-32x32.png?v=3Deba70b7be5393f104c5ba59bccb7d532" type=3D"image/png"><=
+link rel=3D"manifest" href=3D"https://www.daleseo.com/manifest.webmanifest"=
+ crossorigin=3D"anonymous"><meta name=3D"theme-color" content=3D"#52297a"><=
+link rel=3D"apple-touch-icon" sizes=3D"48x48" href=3D"https://www.daleseo.c=
+om/icons/icon-48x48.png?v=3Deba70b7be5393f104c5ba59bccb7d532"><link rel=3D"=
+apple-touch-icon" sizes=3D"72x72" href=3D"https://www.daleseo.com/icons/ico=
+n-72x72.png?v=3Deba70b7be5393f104c5ba59bccb7d532"><link rel=3D"apple-touch-=
+icon" sizes=3D"96x96" href=3D"https://www.daleseo.com/icons/icon-96x96.png?=
+v=3Deba70b7be5393f104c5ba59bccb7d532"><link rel=3D"apple-touch-icon" sizes=
+=3D"144x144" href=3D"https://www.daleseo.com/icons/icon-144x144.png?v=3Deba=
+70b7be5393f104c5ba59bccb7d532"><link rel=3D"apple-touch-icon" sizes=3D"192x=
+192" href=3D"https://www.daleseo.com/icons/icon-192x192.png?v=3Deba70b7be53=
+93f104c5ba59bccb7d532"><link rel=3D"apple-touch-icon" sizes=3D"256x256" hre=
+f=3D"https://www.daleseo.com/icons/icon-256x256.png?v=3Deba70b7be5393f104c5=
+ba59bccb7d532"><link rel=3D"apple-touch-icon" sizes=3D"384x384" href=3D"htt=
+ps://www.daleseo.com/icons/icon-384x384.png?v=3Deba70b7be5393f104c5ba59bccb=
+7d532"><link rel=3D"apple-touch-icon" sizes=3D"512x512" href=3D"https://www=
+.daleseo.com/icons/icon-512x512.png?v=3Deba70b7be5393f104c5ba59bccb7d532"><=
+link rel=3D"preconnect" href=3D"https://www.google-analytics.com/"><link re=
+l=3D"dns-prefetch" href=3D"https://www.google-analytics.com/"><link as=3D"s=
+cript" rel=3D"preload" href=3D"https://www.daleseo.com/webpack-runtime-467f=
+895c16bf2fd3d406.js"><link as=3D"script" rel=3D"preload" href=3D"https://ww=
+w.daleseo.com/framework-7bbbfac7f12778edc4c5.js"><link as=3D"script" rel=3D=
+"preload" href=3D"https://www.daleseo.com/app-e4231cc5d259dbf4f4f3.js"><lin=
+k as=3D"script" rel=3D"preload" href=3D"https://www.daleseo.com/commons-df1=
+152d05ab96d832cb8.js"><link as=3D"script" rel=3D"preload" href=3D"https://w=
+ww.daleseo.com/component---src-templates-detail-template-jsx-6fecbfcde5de62=
+52284e.js"><link as=3D"fetch" rel=3D"preload" href=3D"https://www.daleseo.c=
+om/page-data/python-requests/page-data.json" crossorigin=3D"anonymous"><lin=
+k as=3D"fetch" rel=3D"preload" href=3D"https://www.daleseo.com/page-data/sq=
+/d/2362167539.json" crossorigin=3D"anonymous"><link as=3D"fetch" rel=3D"pre=
+load" href=3D"https://www.daleseo.com/page-data/sq/d/3000541721.json" cross=
+origin=3D"anonymous"><link as=3D"fetch" rel=3D"preload" href=3D"https://www=
+.daleseo.com/page-data/sq/d/3056348342.json" crossorigin=3D"anonymous"><lin=
+k as=3D"fetch" rel=3D"preload" href=3D"https://www.daleseo.com/page-data/ap=
+p-data.json" crossorigin=3D"anonymous"><meta name=3D"darkreader" content=3D=
+"f18749cc6b62432aa26deee599d62508"><link rel=3D"prefetch" href=3D"https://w=
+ww.daleseo.com/page-data/index/page-data.json" crossorigin=3D"anonymous" as=
+=3D"fetch"><link rel=3D"prefetch" href=3D"https://www.daleseo.com/page-data=
+/index/page-data.json" crossorigin=3D"anonymous" as=3D"fetch"><link rel=3D"=
+prefetch" href=3D"https://www.daleseo.com/page-data/index/page-data.json" c=
+rossorigin=3D"anonymous" as=3D"fetch"><link rel=3D"prefetch" href=3D"https:=
+//www.daleseo.com/page-data/index/page-data.json" crossorigin=3D"anonymous"=
+ as=3D"fetch"><link rel=3D"prefetch" href=3D"https://www.daleseo.com/page-d=
+ata/index/page-data.json" crossorigin=3D"anonymous" as=3D"fetch"><link rel=
+=3D"prefetch" href=3D"https://www.daleseo.com/page-data/index/page-data.jso=
+n" crossorigin=3D"anonymous" as=3D"fetch"><link rel=3D"prefetch" href=3D"ht=
+tps://www.daleseo.com/page-data/index/page-data.json" crossorigin=3D"anonym=
+ous" as=3D"fetch"><link rel=3D"prefetch" href=3D"https://www.daleseo.com/co=
+mponent---src-templates-list-template-jsx-25dfd606b9df7b63c312.js"><link re=
+l=3D"prefetch" href=3D"https://www.daleseo.com/component---src-templates-li=
+st-template-jsx-25dfd606b9df7b63c312.js"><link rel=3D"prefetch" href=3D"htt=
+ps://www.daleseo.com/component---src-templates-list-template-jsx-25dfd606b9=
+df7b63c312.js"><link rel=3D"prefetch" href=3D"https://www.daleseo.com/compo=
+nent---src-templates-list-template-jsx-25dfd606b9df7b63c312.js"><link rel=
+=3D"prefetch" href=3D"https://www.daleseo.com/component---src-templates-lis=
+t-template-jsx-25dfd606b9df7b63c312.js"><link rel=3D"prefetch" href=3D"http=
+s://www.daleseo.com/component---src-templates-list-template-jsx-25dfd606b9d=
+f7b63c312.js"><link rel=3D"prefetch" href=3D"https://www.daleseo.com/compon=
+ent---src-templates-list-template-jsx-25dfd606b9df7b63c312.js"></head><body=
+ class=3D"dark-mode"><div id=3D"___gatsby"><div style=3D"outline: none; --d=
+arkreader-inline-outline: initial;" tabindex=3D"-1" id=3D"gatsby-focus-wrap=
+per" data-darkreader-inline-outline=3D""><div class=3D"Layout__Wrapper-sc-1=
+z0mh3x-0 dbGMMk"><div class=3D"Layout__HeaderWrapper-sc-1z0mh3x-1 ixiLJW"><=
+div class=3D"MaxWidthWrapper-sc-1qo6yt-0 jfjiLh"><header class=3D"Header__W=
+rapper-sc-1q3er2g-0 frQtOZ"><a class=3D"Logo__Wrapper-sc-1fjvobh-0 UUOOO He=
+ader__HeaderLogo-sc-1q3er2g-1 ygDjb" href=3D"https://www.daleseo.com/"><svg=
+ width=3D"185" height=3D"34" viewBox=3D"0 0 185 34" xmlns=3D"http://www.w3.=
+org/2000/svg" class=3D"Logo__Svg-sc-1fjvobh-1 cwyRoq Header__HeaderLogo-sc-=
+1q3er2g-1 ygDjb"><path d=3D"M13.3928 5.62647L13.3781 5.6117C12.9892 5.22002=
+ 12.4617 5 11.9117 5C11.3618 5 10.8343 5.22002 10.4454 5.6117L0.607198 15.5=
+227C0.218406 15.9146 -3.86666e-07 16.446 -3.86666e-07 17C-3.86666e-07 17.55=
+4 0.218406 18.0854 0.607198 18.4773L10.4454 28.3883C10.8343 28.78 11.3618 2=
+9 11.9117 29C12.4617 29 12.9892 28.78 13.3781 28.3883L13.3928 28.3735C13.78=
+16 27.9817 14 27.4503 14 26.8963C14 26.3422 13.7816 25.8109 13.3928 25.419L=
+5.91287 17.8864C5.79727 17.77 5.70556 17.6318 5.643 17.4797C5.58043 17.3276=
+ 5.54822 17.1646 5.54822 17C5.54822 16.8354 5.58043 16.6724 5.643 16.5203C5=
+.70556 16.3682 5.79727 16.23 5.91287 16.1136L13.3928 8.58098C13.7816 8.1891=
+3 14 7.65776 14 7.10373C14 6.54969 13.7816 6.01833 13.3928 5.62647Z"></path=
+><path d=3D"M24.6404 7.4H33.5444C35.6724 7.4 37.5484 7.81067 39.1724 8.632C=
+40.8151 9.43467 42.0844 10.5733 42.9804 12.048C43.8951 13.5227 44.3524 15.2=
+4 44.3524 17.2C44.3524 19.16 43.8951 20.8773 42.9804 22.352C42.0844 23.8267=
+ 40.8151 24.9747 39.1724 25.796C37.5484 26.5987 35.6724 27 33.5444 27H24.64=
+04V7.4ZM33.3204 23.276C35.2804 23.276 36.8391 22.7347 37.9964 21.652C39.172=
+4 20.5507 39.7604 19.0667 39.7604 17.2C39.7604 15.3333 39.1724 13.8587 37.9=
+964 12.776C36.8391 11.6747 35.2804 11.124 33.3204 11.124H29.1764V23.276H33.=
+3204ZM53.5412 11.712C55.8746 11.712 57.6666 12.272 58.9172 13.392C60.1679 1=
+4.4933 60.7932 16.164 60.7932 18.404V27H56.7052V25.124C55.8839 26.524 54.35=
+32 27.224 52.1132 27.224C50.9559 27.224 49.9479 27.028 49.0892 26.636C48.24=
+92 26.244 47.6052 25.7027 47.1572 25.012C46.7092 24.3213 46.4852 23.5373 46=
+.4852 22.66C46.4852 21.26 47.0079 20.1587 48.0532 19.356C49.1172 18.5533 50=
+.7506 18.152 52.9532 18.152H56.4252C56.4252 17.2 56.1359 16.472 55.5572 15.=
+968C54.9786 15.4453 54.1106 15.184 52.9532 15.184C52.1506 15.184 51.3572 15=
+.3147 50.5732 15.576C49.8079 15.8187 49.1546 16.1547 48.6132 16.584L47.0452=
+ 13.532C47.8666 12.9533 48.8466 12.5053 49.9852 12.188C51.1426 11.8707 52.3=
+279 11.712 53.5412 11.712ZM53.2052 24.284C53.9519 24.284 54.6146 24.116 55.=
+1932 23.78C55.7719 23.4253 56.1826 22.912 56.4252 22.24V20.7H53.4292C51.637=
+2 20.7 50.7412 21.288 50.7412 22.464C50.7412 23.024 50.9559 23.472 51.3852 =
+23.808C51.8332 24.1253 52.4399 24.284 53.2052 24.284ZM64.7465 6.224H69.1145=
+V27H64.7465V6.224ZM87.9243 19.524C87.9243 19.58 87.8963 19.972 87.8403 20.7=
+H76.4443C76.6497 21.6333 77.135 22.3707 77.9003 22.912C78.6657 23.4533 79.6=
+177 23.724 80.7563 23.724C81.5403 23.724 82.231 23.612 82.8283 23.388C83.44=
+43 23.1453 84.0137 22.772 84.5363 22.268L86.8603 24.788C85.4417 26.412 83.3=
+697 27.224 80.6443 27.224C78.9457 27.224 77.443 26.8973 76.1363 26.244C74.8=
+297 25.572 73.8217 24.648 73.1123 23.472C72.403 22.296 72.0483 20.9613 72.0=
+483 19.468C72.0483 17.9933 72.3937 16.668 73.0843 15.492C73.7937 14.2973 74=
+.755 13.3733 75.9683 12.72C77.2003 12.048 78.5723 11.712 80.0843 11.712C81.=
+559 11.712 82.8937 12.0293 84.0883 12.664C85.283 13.2987 86.2163 14.2133 86=
+.8883 15.408C87.579 16.584 87.9243 17.956 87.9243 19.524ZM80.1123 15.016C79=
+.123 15.016 78.2923 15.296 77.6203 15.856C76.9483 16.416 76.5377 17.1813 76=
+.3883 18.152H83.8083C83.659 17.2 83.2483 16.444 82.5763 15.884C81.9043 15.3=
+053 81.083 15.016 80.1123 15.016ZM97.5804 27.336C96.0311 27.336 94.5284 27.=
+1307 93.0724 26.72C91.6351 26.2907 90.4777 25.74 89.6004 25.068L91.1404 21.=
+652C91.9804 22.268 92.9791 22.7627 94.1364 23.136C95.2937 23.5093 96.4511 2=
+3.696 97.6084 23.696C98.8964 23.696 99.8484 23.5093 100.464 23.136C101.08 2=
+2.744 101.388 22.2307 101.388 21.596C101.388 21.1293 101.202 20.7467 100.82=
+8 20.448C100.474 20.1307 100.007 19.8787 99.4284 19.692C98.8684 19.5053 98.=
+1031 19.3 97.1324 19.076C95.6391 18.7213 94.4164 18.3667 93.4644 18.012C92.=
+5124 17.6573 91.6911 17.088 91.0004 16.304C90.3284 15.52 89.9924 14.4747 89=
+.9924 13.168C89.9924 12.0293 90.3004 11.0027 90.9164 10.088C91.5324 9.15467=
+ 92.4564 8.41733 93.6884 7.876C94.9391 7.33467 96.4604 7.064 98.2524 7.064C=
+99.5031 7.064 100.726 7.21333 101.92 7.512C103.115 7.81067 104.16 8.24 105.=
+056 8.8L103.656 12.244C101.846 11.2173 100.035 10.704 98.2244 10.704C96.955=
+1 10.704 96.0124 10.9093 95.3964 11.32C94.7991 11.7307 94.5004 12.272 94.50=
+04 12.944C94.5004 13.616 94.8457 14.12 95.5364 14.456C96.2457 14.7733 97.31=
+91 15.0907 98.7564 15.408C100.25 15.7627 101.472 16.1173 102.424 16.472C103=
+.376 16.8267 104.188 17.3867 104.86 18.152C105.551 18.9173 105.896 19.9533 =
+105.896 21.26C105.896 22.38 105.579 23.4067 104.944 24.34C104.328 25.2547 1=
+03.395 25.9827 102.144 26.524C100.894 27.0653 99.3724 27.336 97.5804 27.336=
+ZM123.444 19.524C123.444 19.58 123.416 19.972 123.36 20.7H111.964C112.169 2=
+1.6333 112.655 22.3707 113.42 22.912C114.185 23.4533 115.137 23.724 116.276=
+ 23.724C117.06 23.724 117.751 23.612 118.348 23.388C118.964 23.1453 119.533=
+ 22.772 120.056 22.268L122.38 24.788C120.961 26.412 118.889 27.224 116.164 =
+27.224C114.465 27.224 112.963 26.8973 111.656 26.244C110.349 25.572 109.341=
+ 24.648 108.632 23.472C107.923 22.296 107.568 20.9613 107.568 19.468C107.56=
+8 17.9933 107.913 16.668 108.604 15.492C109.313 14.2973 110.275 13.3733 111=
+.488 12.72C112.72 12.048 114.092 11.712 115.604 11.712C117.079 11.712 118.4=
+13 12.0293 119.608 12.664C120.803 13.2987 121.736 14.2133 122.408 15.408C12=
+3.099 16.584 123.444 17.956 123.444 19.524ZM115.632 15.016C114.643 15.016 1=
+13.812 15.296 113.14 15.856C112.468 16.416 112.057 17.1813 111.908 18.152H1=
+19.328C119.179 17.2 118.768 16.444 118.096 15.884C117.424 15.3053 116.603 1=
+5.016 115.632 15.016ZM133.52 27.224C131.933 27.224 130.505 26.8973 129.236 =
+26.244C127.985 25.572 127.005 24.648 126.296 23.472C125.587 22.296 125.232 =
+20.9613 125.232 19.468C125.232 17.9747 125.587 16.64 126.296 15.464C127.005=
+ 14.288 127.985 13.3733 129.236 12.72C130.505 12.048 131.933 11.712 133.52 =
+11.712C135.107 11.712 136.525 12.048 137.776 12.72C139.027 13.3733 140.007 =
+14.288 140.716 15.464C141.425 16.64 141.78 17.9747 141.78 19.468C141.78 20.=
+9613 141.425 22.296 140.716 23.472C140.007 24.648 139.027 25.572 137.776 26=
+.244C136.525 26.8973 135.107 27.224 133.52 27.224ZM133.52 23.64C134.64 23.6=
+4 135.555 23.2667 136.264 22.52C136.992 21.7547 137.356 20.7373 137.356 19.=
+468C137.356 18.1987 136.992 17.1907 136.264 16.444C135.555 15.6787 134.64 1=
+5.296 133.52 15.296C132.4 15.296 131.476 15.6787 130.748 16.444C130.02 17.1=
+907 129.656 18.1987 129.656 19.468C129.656 20.7373 130.02 21.7547 130.748 2=
+2.52C131.476 23.2667 132.4 23.64 133.52 23.64Z"></path><path fill-rule=3D"e=
+venodd" clip-rule=3D"evenodd" d=3D"M165.139 5.18098C166.222 5.57833 166.742=
+ 6.50607 166.302 7.25303L155.083 26.188C154.641 26.935 153.404 27.2181 152.=
+319 26.819C151.235 26.4217 150.716 25.4922 151.158 24.7453L162.375 5.81197C=
+162.817 5.06501 164.054 4.78191 165.139 5.18098Z"></path><path d=3D"M171.06=
+6 5.62647L171.08 5.6117C171.469 5.22002 171.997 5 172.547 5C173.097 5 173.6=
+24 5.22002 174.013 5.6117L183.851 15.5227C184.24 15.9146 184.458 16.446 184=
+.458 17C184.458 17.554 184.24 18.0854 183.851 18.4773L174.013 28.3883C173.6=
+24 28.78 173.097 29 172.547 29C171.997 29 171.469 28.78 171.08 28.3883L171.=
+066 28.3735C170.677 27.9817 170.458 27.4503 170.458 26.8963C170.458 26.3422=
+ 170.677 25.8109 171.066 25.419L178.546 17.8864C178.661 17.77 178.753 17.63=
+18 178.816 17.4797C178.878 17.3276 178.91 17.1646 178.91 17C178.91 16.8354 =
+178.878 16.6724 178.816 16.5203C178.753 16.3682 178.661 16.23 178.546 16.11=
+36L171.066 8.58098C170.677 8.18913 170.458 7.65776 170.458 7.10373C170.458 =
+6.54969 170.677 6.01833 171.066 5.62647Z"></path></svg><span style=3D"borde=
+r: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow=
+: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap=
+; overflow-wrap: normal; --darkreader-inline-border-top: initial; --darkrea=
+der-inline-border-right: initial; --darkreader-inline-border-bottom: initia=
+l; --darkreader-inline-border-left: initial;" data-darkreader-inline-border=
+-top=3D"" data-darkreader-inline-border-right=3D"" data-darkreader-inline-b=
+order-bottom=3D"" data-darkreader-inline-border-left=3D"">Logo</span></a><n=
+av class=3D"Menu__Wrapper-sc-bozbw4-0 huSeDK Header__HeaderMenu-sc-1q3er2g-=
+2 emFxXA"><ul class=3D"Menu__List-sc-bozbw4-1 hSGQQW"><li class=3D"Menu__It=
+em-sc-bozbw4-2 Menu__MinorItem-sc-bozbw4-3 ljIWm Mryvw"><a class=3D"Menu__N=
+avLink-sc-bozbw4-4 kHnccE" href=3D"https://www.daleseo.com/?tag=3DGraphQL">=
+GraphQL</a></li><li class=3D"Menu__Item-sc-bozbw4-2 Menu__MinorItem-sc-bozb=
+w4-3 ljIWm Mryvw"><a class=3D"Menu__NavLink-sc-bozbw4-4 kHnccE" href=3D"htt=
+ps://www.daleseo.com/?tag=3DReact">React</a></li><li class=3D"Menu__Item-sc=
+-bozbw4-2 ljIWm"><a class=3D"Menu__NavLink-sc-bozbw4-4 kHnccE" href=3D"http=
+s://www.daleseo.com/?tag=3DJavaScript">JavaScript</a></li><li class=3D"Menu=
+__Item-sc-bozbw4-2 ljIWm"><a class=3D"Menu__NavLink-sc-bozbw4-4 kHnccE" hre=
+f=3D"https://www.daleseo.com/?tag=3DPython">Python</a></li><li class=3D"Men=
+u__Item-sc-bozbw4-2 ljIWm"><a class=3D"Menu__NavLink-sc-bozbw4-4 kHnccE" hr=
+ef=3D"https://www.daleseo.com/?tag=3DJava">Java</a></li><li class=3D"Menu__=
+Item-sc-bozbw4-2 Menu__MinorItem-sc-bozbw4-3 ljIWm Mryvw"><a class=3D"Menu_=
+_NavLink-sc-bozbw4-4 kHnccE" href=3D"https://www.daleseo.com/?tag=3DDocker"=
+>Docker</a></li></ul></nav><div class=3D"Header__Actions-sc-1q3er2g-3 dTfYC=
+o"><div class=3D"DarkModeToggle__Wrapper-sc-1g283wz-0 cQyygQ"><button class=
+=3D"UnstyledButton-sc-4dhl4-0 IconButton__Wrapper-sc-19femd6-0 udIkW dbFAMx=
+"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" view=
+Box=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" =
+stroke-linecap=3D"round" stroke-linejoin=3D"round" aria-hidden=3D"true" foc=
+usable=3D"false" class=3D"IconButton__BlockIcon-sc-19femd6-1 fOcOOu" data-d=
+arkreader-inline-stroke=3D"" style=3D"--darkreader-inline-stroke:currentCol=
+or;"><path d=3D"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></s=
+vg><span style=3D"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px;=
+ margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1=
+px; white-space: nowrap; overflow-wrap: normal; --darkreader-inline-border-=
+top: initial; --darkreader-inline-border-right: initial; --darkreader-inlin=
+e-border-bottom: initial; --darkreader-inline-border-left: initial;" data-d=
+arkreader-inline-border-top=3D"" data-darkreader-inline-border-right=3D"" d=
+ata-darkreader-inline-border-bottom=3D"" data-darkreader-inline-border-left=
+=3D"">Activate light mode</span></button></div><button class=3D"UnstyledBut=
+ton-sc-4dhl4-0 IconButton__Wrapper-sc-19femd6-0 udIkW dbFAMx Header__Search=
+Button-sc-1q3er2g-4 AHuOS"><svg xmlns=3D"http://www.w3.org/2000/svg" width=
+=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"current=
+Color" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round=
+" aria-hidden=3D"true" focusable=3D"false" class=3D"IconButton__BlockIcon-s=
+c-19femd6-1 fOcOOu" data-darkreader-inline-stroke=3D"" style=3D"--darkreade=
+r-inline-stroke:currentColor;"><circle cx=3D"11" cy=3D"11" r=3D"8"></circle=
+><line x1=3D"21" y1=3D"21" x2=3D"16.65" y2=3D"16.65"></line></svg><span sty=
+le=3D"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1p=
+x; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-sp=
+ace: nowrap; overflow-wrap: normal; --darkreader-inline-border-top: initial=
+; --darkreader-inline-border-right: initial; --darkreader-inline-border-bot=
+tom: initial; --darkreader-inline-border-left: initial;" data-darkreader-in=
+line-border-top=3D"" data-darkreader-inline-border-right=3D"" data-darkread=
+er-inline-border-bottom=3D"" data-darkreader-inline-border-left=3D"">open s=
+earch</span></button><button class=3D"UnstyledButton-sc-4dhl4-0 IconButton_=
+_Wrapper-sc-19femd6-0 udIkW dbFAMx Header__MobileButton-sc-1q3er2g-5 egLEJh=
+"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" view=
+Box=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" =
+stroke-linecap=3D"round" stroke-linejoin=3D"round" aria-hidden=3D"true" foc=
+usable=3D"false" class=3D"IconButton__BlockIcon-sc-19femd6-1 fOcOOu" data-d=
+arkreader-inline-stroke=3D"" style=3D"--darkreader-inline-stroke:currentCol=
+or;"><line x1=3D"3" y1=3D"12" x2=3D"21" y2=3D"12"></line><line x1=3D"3" y1=
+=3D"6" x2=3D"21" y2=3D"6"></line><line x1=3D"3" y1=3D"18" x2=3D"21" y2=3D"1=
+8"></line></svg><span style=3D"border: 0px; clip: rect(0px, 0px, 0px, 0px);=
+ height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absol=
+ute; width: 1px; white-space: nowrap; overflow-wrap: normal; --darkreader-i=
+nline-border-top: initial; --darkreader-inline-border-right: initial; --dar=
+kreader-inline-border-bottom: initial; --darkreader-inline-border-left: ini=
+tial;" data-darkreader-inline-border-top=3D"" data-darkreader-inline-border=
+-right=3D"" data-darkreader-inline-border-bottom=3D"" data-darkreader-inlin=
+e-border-left=3D"">open menu</span></button></div></header></div></div><div=
+ class=3D"Layout__MainWrapper-sc-1z0mh3x-2 dUnKzd"><div class=3D"MaxWidthWr=
+apper-sc-1qo6yt-0 jfjiLh"><main class=3D"PostDetail__Wrapper-sc-1bau2bk-0 h=
+SpMLu"><article class=3D"PostDetail__Article-sc-1bau2bk-1 jxKfMg"><header c=
+lass=3D"Header__Wrapper-sc-efn3ve-0 gLLGeV"><h1 class=3D"Header__Title-sc-e=
+fn3ve-1 bjFRrj">[=ED=8C=8C=EC=9D=B4=EC=8D=AC] requests =EB=9D=BC=EC=9D=B4=
+=EB=B8=8C=EB=9F=AC=EB=A6=AC =EC=82=AC=EC=9A=A9=EB=B2=95</h1></header><div c=
+lass=3D"Content__Wrapper-sc-m3dg7x-0 jJMbc"><p>requests=EB=8A=94 =ED=8C=8C=
+=EC=9D=B4=EC=8D=AC=EC=9C=BC=EB=A1=9C HTTP =ED=98=B8=EC=B6=9C=ED=95=98=EB=8A=
+=94 =ED=94=84=EB=A1=9C=EA=B7=B8=EB=9E=A8=EC=9D=84 =EC=9E=91=EC=84=B1=ED=95=
+=A0 =EB=95=8C =EA=B0=80=EC=9E=A5 =EB=A7=8E=EC=9D=B4 =EC=82=AC=EC=9A=A9=EB=
+=90=98=EB=8A=94 =EB=9D=BC=EC=9D=B4=EB=B8=8C=EB=9F=AC=EB=A6=AC=EC=9E=85=EB=
+=8B=88=EB=8B=A4.</p>
+<h2 id=3D"=ED=8C=A8=ED=82=A4=EC=A7=80-=EC=84=A4=EC=B9=98" style=3D"position=
+:relative;"><a href=3D"https://www.daleseo.com/python-requests/#%ED%8C%A8%E=
+D%82%A4%EC%A7%80-%EC%84%A4%EC%B9%98" aria-label=3D"=ED=8C=A8=ED=82=A4=EC=A7=
+=80 =EC=84=A4=EC=B9=98 permalink" class=3D"anchor before"><svg aria-hidden=
+=3D"true" focusable=3D"false" height=3D"16" version=3D"1.1" viewBox=3D"0 0 =
+16 16" width=3D"16"><path fill-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.=
+69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.=
+45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1=
+h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.=
+09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S1=
+4.5 6 13 6z"></path></svg></a>=ED=8C=A8=ED=82=A4=EC=A7=80 =EC=84=A4=EC=B9=
+=98</h2>
+<p>=ED=8C=8C=EC=9D=B4=EC=8D=AC=EC=9D=98 =ED=8C=A8=ED=82=A4=EC=A7=80 =EB=A7=
+=A4=EB=8B=88=EC=A0=80=EC=9D=B8 pip=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4=EC=
+=84=9C requests =ED=8C=A8=ED=82=A4=EC=A7=80=EC=9D=84 =EC=84=A4=EC=B9=98=ED=
+=95=A9=EB=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"bash"><pre class=3D"langua=
+ge-bash"><code class=3D"language-bash">$ pip <span class=3D"token function"=
+>install</span> requests
+Collecting requests
+  Downloading requests-2.25.0-py2.py3-none-any.whl <span class=3D"token pun=
+ctuation">(</span><span class=3D"token number">61</span> kB<span class=3D"t=
+oken punctuation">)</span>
+     <span class=3D"token operator">|</span>=E2=96=88=E2=96=88=E2=96=88=E2=
+=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=
+=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=
+=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=
+=96=88=E2=96=88=E2=96=88=E2=96=88<span class=3D"token operator">|</span> <s=
+pan class=3D"token number">61</span> kB <span class=3D"token number">3.1</s=
+pan> MB/s
+Collecting urllib<span class=3D"token operator"><span class=3D"token file-d=
+escriptor important">3</span>&lt;</span><span class=3D"token number">1.27</=
+span>,<span class=3D"token operator">&gt;=3D</span><span class=3D"token num=
+ber">1.21</span>.1
+  Downloading urllib3-1.26.2-py2.py3-none-any.whl <span class=3D"token punc=
+tuation">(</span><span class=3D"token number">136</span> kB<span class=3D"t=
+oken punctuation">)</span>
+     <span class=3D"token operator">|</span>=E2=96=88=E2=96=88=E2=96=88=E2=
+=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=
+=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=
+=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=
+=96=88=E2=96=88=E2=96=88=E2=96=88<span class=3D"token operator">|</span> <s=
+pan class=3D"token number">136</span> kB <span class=3D"token number">6.1</=
+span> MB/s
+Collecting certifi<span class=3D"token operator">&gt;=3D</span><span class=
+=3D"token number">2017.4</span>.17
+  Downloading certifi-2020.12.5-py2.py3-none-any.whl <span class=3D"token p=
+unctuation">(</span><span class=3D"token number">147</span> kB<span class=
+=3D"token punctuation">)</span>
+     <span class=3D"token operator">|</span>=E2=96=88=E2=96=88=E2=96=88=E2=
+=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=
+=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=
+=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=
+=96=88=E2=96=88=E2=96=88=E2=96=88<span class=3D"token operator">|</span> <s=
+pan class=3D"token number">147</span> kB <span class=3D"token number">4.9</=
+span> MB/s
+Collecting idna<span class=3D"token operator">&lt;</span><span class=3D"tok=
+en number">3</span>,<span class=3D"token operator">&gt;=3D</span><span clas=
+s=3D"token number">2.5</span>
+  Downloading idna-2.10-py2.py3-none-any.whl <span class=3D"token punctuati=
+on">(</span><span class=3D"token number">58</span> kB<span class=3D"token p=
+unctuation">)</span>
+     <span class=3D"token operator">|</span>=E2=96=88=E2=96=88=E2=96=88=E2=
+=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=
+=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=
+=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=
+=96=88=E2=96=88=E2=96=88=E2=96=88<span class=3D"token operator">|</span> <s=
+pan class=3D"token number">58</span> kB <span class=3D"token number">8.6</s=
+pan> MB/s
+Collecting chardet<span class=3D"token operator">&lt;</span><span class=3D"=
+token number">4</span>,<span class=3D"token operator">&gt;=3D</span><span c=
+lass=3D"token number">3.0</span>.2
+  Downloading chardet-3.0.4-py2.py3-none-any.whl <span class=3D"token punct=
+uation">(</span><span class=3D"token number">133</span> kB<span class=3D"to=
+ken punctuation">)</span>
+     <span class=3D"token operator">|</span>=E2=96=88=E2=96=88=E2=96=88=E2=
+=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=
+=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=
+=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=96=88=E2=
+=96=88=E2=96=88=E2=96=88=E2=96=88<span class=3D"token operator">|</span> <s=
+pan class=3D"token number">133</span> kB <span class=3D"token number">6.7</=
+span> MB/s
+Installing collected packages: urllib3, certifi, idna, chardet, requests
+Successfully installed certifi-2020.12.5 chardet-3.0.4 idna-2.10 requests-2=
+.25.0 urllib3-1.26.2</code></pre></div>
+<p>=EC=84=A4=EC=B9=98=EA=B0=80 =EC=9E=98 =EB=90=98=EC=97=88=EB=8A=94=EC=A7=
+=80 =ED=8C=8C=EC=9D=B4=EC=8D=AC =EC=9D=B8=ED=84=B0=ED=94=84=EB=A6=AC=ED=84=
+=B0=EB=A5=BC =EC=8B=A4=ED=96=89=ED=95=98=EC=97=AC =ED=99=95=EC=9D=B8=ED=95=
+=B4=EB=B4=85=EB=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py">$ python
+Python <span class=3D"token number">3.9</span><span class=3D"token number">=
+.0</span> <span class=3D"token punctuation">(</span>default<span class=3D"t=
+oken punctuation">,</span> Oct <span class=3D"token number">17</span> <span=
+ class=3D"token number">2020</span><span class=3D"token punctuation">,</spa=
+n> <span class=3D"token number">15</span><span class=3D"token punctuation">=
+:</span><span class=3D"token number">32</span><span class=3D"token punctuat=
+ion">:</span><span class=3D"token number">58</span><span class=3D"token pun=
+ctuation">)</span>
+<span class=3D"token punctuation">[</span>Clang <span class=3D"token number=
+">11.0</span><span class=3D"token number">.3</span> <span class=3D"token pu=
+nctuation">(</span>clang<span class=3D"token operator">-</span><span class=
+=3D"token number">1103.0</span><span class=3D"token number">.32</span><span=
+ class=3D"token number">.62</span><span class=3D"token punctuation">)</span=
+><span class=3D"token punctuation">]</span> on darwin
+Type <span class=3D"token string">"help"</span><span class=3D"token punctua=
+tion">,</span> <span class=3D"token string">"copyright"</span><span class=
+=3D"token punctuation">,</span> <span class=3D"token string">"credits"</spa=
+n> <span class=3D"token keyword">or</span> <span class=3D"token string">"li=
+cense"</span> <span class=3D"token keyword">for</span> more information<spa=
+n class=3D"token punctuation">.</span>
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> <span class=3D"token keyword">import</span> requests
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> requests<span class=3D"token punctuation">.</span>get<span cl=
+ass=3D"token punctuation">(</span><span class=3D"token string">"https://goo=
+gle.com"</span><span class=3D"token punctuation">)</span>
+<span class=3D"token operator">&lt;</span>Response <span class=3D"token pun=
+ctuation">[</span><span class=3D"token number">200</span><span class=3D"tok=
+en punctuation">]</span><span class=3D"token operator">&gt;</span></code></=
+pre></div>
+<p>requests =EB=9D=BC=EC=9D=B4=EB=B8=8C=EB=9F=AC=EB=A6=AC=EB=A1=9C =EA=B5=
+=AC=EA=B8=80=EC=97=90 =EC=A0=91=EC=86=8D=EC=9D=84 =ED=95=B4=EB=B3=B4=EB=8B=
+=88 =EC=83=81=ED=83=9C =EC=BD=94=EB=93=9C 200=EC=9D=B4 =EC=9D=91=EB=8B=B5=
+=EC=9D=B4 =EB=90=98=EB=8A=94 =EA=B2=83=EC=9D=84 =EB=B3=BC =EC=88=98 =EC=9E=
+=88=EC=8A=B5=EB=8B=88=EB=8B=A4. =F0=9F=8E=89</p>
+<h2 id=3D"api" style=3D"position:relative;"><a href=3D"https://www.daleseo.=
+com/python-requests/#api" aria-label=3D"api permalink" class=3D"anchor befo=
+re"><svg aria-hidden=3D"true" focusable=3D"false" height=3D"16" version=3D"=
+1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rule=3D"evenodd" d=3D"M4=
+ 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.=
+72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2=
+.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.=
+5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1=
+.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>API</h2>
+<p>requests =EB=9D=BC=EC=9D=B4=EB=B8=8C=EB=9F=AC=EB=A6=AC=EB=8A=94 =EB=A7=
+=A4=EC=9A=B0 =EC=A7=81=EA=B4=80=EC=A0=81=EC=9D=B8 API=EB=A5=BC =EC=A0=9C=EA=
+=B3=B5=ED=95=98=EB=8A=94=EB=8D=B0=EC=9A=94.
+=EC=96=B4=EB=96=A4 =EB=B0=A9=EC=8B=9D(method)=EC=9D=98 HTTP =EC=9A=94=EC=B2=
+=AD=EC=9D=84 =ED=95=98=EB=8A=90=EB=83=90=EC=97=90 =EB=94=B0=EB=9D=BC=EC=84=
+=9C =ED=95=B4=EB=8B=B9=ED=95=98=EB=8A=94 =EC=9D=B4=EB=A6=84=EC=9D=98 =ED=95=
+=A8=EC=88=98=EB=A5=BC =EC=82=AC=EC=9A=A9=ED=95=98=EB=A9=B4 =EB=90=A9=EB=8B=
+=88=EB=8B=A4.</p>
+<ul>
+<li>GET =EB=B0=A9=EC=8B=9D: <code>requests.get()</code></li>
+<li>POST =EB=B0=A9=EC=8B=9D: <code>requests.post()</code></li>
+<li>PUT =EB=B0=A9=EC=8B=9D: <code>requests.put()</code></li>
+<li>DELETE =EB=B0=A9=EC=8B=9D: <code>requests.delete()</code></li>
+</ul>
+<h2 id=3D"=EC=9D=91=EB=8B=B5-=EC=83=81=ED=83=9C" style=3D"position:relative=
+;"><a href=3D"https://www.daleseo.com/python-requests/#%EC%9D%91%EB%8B%B5-%=
+EC%83%81%ED%83%9C" aria-label=3D"=EC=9D=91=EB=8B=B5 =EC=83=81=ED=83=9C perm=
+alink" class=3D"anchor before"><svg aria-hidden=3D"true" focusable=3D"false=
+" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fi=
+ll-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0=
+ 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.9=
+8 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12=
+ 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.=
+25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></=
+a>=EC=9D=91=EB=8B=B5 =EC=83=81=ED=83=9C</h2>
+<p>=EC=98=A8=EB=9D=BC=EC=9D=B8 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC HTTP=EB=
+=A1=9C =ED=98=B8=EC=B6=9C=ED=95=98=EB=A9=B4 =EC=83=81=ED=83=9C =EC=BD=94=EB=
+=93=9C=EB=A5=BC =EC=9D=91=EB=8B=B5=EB=B0=9B=EA=B2=8C =EB=90=A9=EB=8B=88=EB=
+=8B=A4.
+=EC=9D=BC=EB=B0=98=EC=A0=81=EC=9C=BC=EB=A1=9C =EC=9D=B4 =EC=83=81=ED=83=9C =
+=EC=BD=94=EB=93=9C=EB=A5=BC =EB=B3=B4=EA=B3=A0 =EC=9A=94=EC=B2=AD=EC=9D=B4 =
+=EC=9E=98 =EC=B2=98=EB=A6=AC=EB=90=98=EC=97=88=EB=8A=94=EC=A7=80 =EB=AC=B8=
+=EC=A0=9C=EA=B0=80 =EC=9E=88=EB=8A=94=EC=A7=80 =EC=95=8C =EC=88=98=EA=B0=80=
+ =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</p>
+<p>=EC=83=81=ED=83=9C =EC=BD=94=EB=93=9C=EB=8A=94 =EC=9D=91=EB=8B=B5 =EA=B0=
+=9D=EC=B2=B4=EC=9D=98 <code>status_code</code> =EC=86=8D=EC=84=B1=EC=9D=84 =
+=ED=86=B5=ED=95=B4 =EA=B0=84=EB=8B=A8=ED=95=98=EA=B2=8C =EC=96=BB=EC=9D=84 =
+=EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py"><span class=3D"token operator">&gt;&gt;</s=
+pan><span class=3D"token operator">&gt;</span> response <span class=3D"toke=
+n operator">=3D</span> requests<span class=3D"token punctuation">.</span>ge=
+t<span class=3D"token punctuation">(</span><span class=3D"token string">"ht=
+tps://jsonplaceholder.typicode.com/users/1"</span><span class=3D"token punc=
+tuation">)</span>
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> response<span class=3D"token punctuation">.</span>status_code
+<span class=3D"token number">200</span>
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> response <span class=3D"token operator">=3D</span> requests<s=
+pan class=3D"token punctuation">.</span>get<span class=3D"token punctuation=
+">(</span><span class=3D"token string">"https://jsonplaceholder.typicode.co=
+m/users/100"</span><span class=3D"token punctuation">)</span>
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> response<span class=3D"token punctuation">.</span>status_code
+<span class=3D"token number">404</span>
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> response <span class=3D"token operator">=3D</span> requests<s=
+pan class=3D"token punctuation">.</span>post<span class=3D"token punctuatio=
+n">(</span><span class=3D"token string">"https://jsonplaceholder.typicode.c=
+om/users"</span><span class=3D"token punctuation">)</span>
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> response<span class=3D"token punctuation">.</span>status_code
+<span class=3D"token number">201</span></code></pre></div>
+<h2 id=3D"=EC=9D=91=EB=8B=B5-=EC=A0=84=EB=AC=B8" style=3D"position:relative=
+;"><a href=3D"https://www.daleseo.com/python-requests/#%EC%9D%91%EB%8B%B5-%=
+EC%A0%84%EB%AC%B8" aria-label=3D"=EC=9D=91=EB=8B=B5 =EC=A0=84=EB=AC=B8 perm=
+alink" class=3D"anchor before"><svg aria-hidden=3D"true" focusable=3D"false=
+" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fi=
+ll-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0=
+ 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.9=
+8 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12=
+ 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.=
+25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></=
+a>=EC=9D=91=EB=8B=B5 =EC=A0=84=EB=AC=B8</h2>
+<p>=EC=9A=94=EC=B2=AD=EC=9D=B4 =EC=A0=95=EC=83=81=EC=A0=81=EC=9C=BC=EB=A1=
+=9C =EC=B2=98=EB=A6=AC=EA=B0=80 =EB=90=9C =EA=B2=BD=EC=9A=B0, =EC=9D=91=EB=
+=8B=B5 =EC=A0=84=EB=AC=B8(response body/payload)=EC=97=90 =EC=9A=94=EC=B2=
+=AD=ED=95=9C =EB=8D=B0=EC=9D=B4=ED=84=B0=EA=B0=80 =EB=8B=B4=EA=B2=A8=EC=A0=
+=B8 =EC=98=B5=EB=8B=88=EB=8B=A4.
+=EC=9D=91=EB=8B=B5 =EC=A0=84=EB=AC=B8=EC=9D=80 =ED=81=AC=EA=B2=8C 3=EA=B0=
+=80=EC=A7=80 =EB=B0=A9=EC=8B=9D=EC=9C=BC=EB=A1=9C =EC=9D=BD=EC=96=B4=EC=98=
+=AC =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py"><span class=3D"token operator">&gt;&gt;</s=
+pan><span class=3D"token operator">&gt;</span> response <span class=3D"toke=
+n operator">=3D</span> requests<span class=3D"token punctuation">.</span>ge=
+t<span class=3D"token punctuation">(</span><span class=3D"token string">"ht=
+tps://jsonplaceholder.typicode.com/users/1"</span><span class=3D"token punc=
+tuation">)</span></code></pre></div>
+<p>=EC=B2=AB =EB=B2=88=EC=A7=B8=EB=8A=94 <code>content</code> =EC=86=8D=EC=
+=84=B1=EC=9D=84 =ED=86=B5=ED=95=B4 =EB=B0=94=EC=9D=B4=EB=84=88=EB=A6=AC =EC=
+=9B=90=EB=AC=B8=EC=9D=84 =EC=96=BB=EC=9D=84 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=
+=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py"><span class=3D"token operator">&gt;&gt;</s=
+pan><span class=3D"token operator">&gt;</span> response<span class=3D"token=
+ punctuation">.</span>content
+<span class=3D"token string">b'{\n  "id": 1,\n  "name": "Leanne Graham",\n =
+ "username": "Bret",\n  "email": "Sincere@april.biz",\n  "address": {\n    =
+"street": "Kulas Light",\n    "suite": "Apt. 556",\n    "city": "Gwenboroug=
+h",\n    "zipcode": "92998-3874",\n    "geo": {\n      "lat": "-37.3159",\n=
+      "lng": "81.1496"\n    }\n  },\n  "phone": "1-770-736-8031 x56442",\n =
+ "website": "hildegard.org",\n  "company": {\n    "name": "Romaguera-Crona"=
+,\n    "catchPhrase": "Multi-layered client-server neural-net",\n    "bs": =
+"harness real-time e-markets"\n  }\n}'</span></code></pre></div>
+<p>=EB=91=90 =EB=B2=88=EC=A7=B8=EB=8A=94 <code>text</code> =EC=86=8D=EC=84=
+=B1=EC=9D=84 =ED=86=B5=ED=95=B4 UTF-8=EB=A1=9C =EC=9D=B8=EC=BD=94=EB=94=A9=
+=EB=90=9C =EB=AC=B8=EC=9E=90=EC=97=B4=EC=9D=84 =EC=96=BB=EC=9D=84 =EC=88=98=
+ =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py"><span class=3D"token operator">&gt;&gt;</s=
+pan><span class=3D"token operator">&gt;</span> response<span class=3D"token=
+ punctuation">.</span>text
+<span class=3D"token string">'{\n  "id": 1,\n  "name": "Leanne Graham",\n  =
+"username": "Bret",\n  "email": "Sincere@april.biz",\n  "address": {\n    "=
+street": "Kulas Light",\n    "suite": "Apt. 556",\n    "city": "Gwenborough=
+",\n    "zipcode": "92998-3874",\n    "geo": {\n      "lat": "-37.3159",\n =
+     "lng": "81.1496"\n    }\n  },\n  "phone": "1-770-736-8031 x56442",\n  =
+"website": "hildegard.org",\n  "company": {\n    "name": "Romaguera-Crona",=
+\n    "catchPhrase": "Multi-layered client-server neural-net",\n    "bs": "=
+harness real-time e-markets"\n  }\n}'</span></code></pre></div>
+<p>=EB=A7=88=EC=A7=80=EB=A7=89=EC=9C=BC=EB=A1=9C, =EC=9D=91=EB=8B=B5 =EB=8D=
+=B0=EC=9D=B4=ED=84=B0=EA=B0=80 JSON =ED=8F=AC=EB=A9=A7=EC=9D=B4=EB=9D=BC=EB=
+=A9=B4 <code>json()</code> =ED=95=A8=EC=88=98=EB=A5=BC =ED=86=B5=ED=95=B4 =
+=EC=82=AC=EC=A0=84(dictionary) =EA=B0=9D=EC=B2=B4=EB=A5=BC =EC=96=BB=EC=9D=
+=84 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py"><span class=3D"token operator">&gt;&gt;</s=
+pan><span class=3D"token operator">&gt;</span> response<span class=3D"token=
+ punctuation">.</span>json<span class=3D"token punctuation">(</span><span c=
+lass=3D"token punctuation">)</span>
+<span class=3D"token punctuation">{</span><span class=3D"token string">'id'=
+</span><span class=3D"token punctuation">:</span> <span class=3D"token numb=
+er">1</span><span class=3D"token punctuation">,</span> <span class=3D"token=
+ string">'name'</span><span class=3D"token punctuation">:</span> <span clas=
+s=3D"token string">'Leanne Graham'</span><span class=3D"token punctuation">=
+,</span> <span class=3D"token string">'username'</span><span class=3D"token=
+ punctuation">:</span> <span class=3D"token string">'Bret'</span><span clas=
+s=3D"token punctuation">,</span> <span class=3D"token string">'email'</span=
+><span class=3D"token punctuation">:</span> <span class=3D"token string">'S=
+incere@april.biz'</span><span class=3D"token punctuation">,</span> <span cl=
+ass=3D"token string">'address'</span><span class=3D"token punctuation">:</s=
+pan> <span class=3D"token punctuation">{</span><span class=3D"token string"=
+>'street'</span><span class=3D"token punctuation">:</span> <span class=3D"t=
+oken string">'Kulas Light'</span><span class=3D"token punctuation">,</span>=
+ <span class=3D"token string">'suite'</span><span class=3D"token punctuatio=
+n">:</span> <span class=3D"token string">'Apt. 556'</span><span class=3D"to=
+ken punctuation">,</span> <span class=3D"token string">'city'</span><span c=
+lass=3D"token punctuation">:</span> <span class=3D"token string">'Gwenborou=
+gh'</span><span class=3D"token punctuation">,</span> <span class=3D"token s=
+tring">'zipcode'</span><span class=3D"token punctuation">:</span> <span cla=
+ss=3D"token string">'92998-3874'</span><span class=3D"token punctuation">,<=
+/span> <span class=3D"token string">'geo'</span><span class=3D"token punctu=
+ation">:</span> <span class=3D"token punctuation">{</span><span class=3D"to=
+ken string">'lat'</span><span class=3D"token punctuation">:</span> <span cl=
+ass=3D"token string">'-37.3159'</span><span class=3D"token punctuation">,</=
+span> <span class=3D"token string">'lng'</span><span class=3D"token punctua=
+tion">:</span> <span class=3D"token string">'81.1496'</span><span class=3D"=
+token punctuation">}</span><span class=3D"token punctuation">}</span><span =
+class=3D"token punctuation">,</span> <span class=3D"token string">'phone'</=
+span><span class=3D"token punctuation">:</span> <span class=3D"token string=
+">'1-770-736-8031 x56442'</span><span class=3D"token punctuation">,</span> =
+<span class=3D"token string">'website'</span><span class=3D"token punctuati=
+on">:</span> <span class=3D"token string">'hildegard.org'</span><span class=
+=3D"token punctuation">,</span> <span class=3D"token string">'company'</spa=
+n><span class=3D"token punctuation">:</span> <span class=3D"token punctuati=
+on">{</span><span class=3D"token string">'name'</span><span class=3D"token =
+punctuation">:</span> <span class=3D"token string">'Romaguera-Crona'</span>=
+<span class=3D"token punctuation">,</span> <span class=3D"token string">'ca=
+tchPhrase'</span><span class=3D"token punctuation">:</span> <span class=3D"=
+token string">'Multi-layered client-server neural-net'</span><span class=3D=
+"token punctuation">,</span> <span class=3D"token string">'bs'</span><span =
+class=3D"token punctuation">:</span> <span class=3D"token string">'harness =
+real-time e-markets'</span><span class=3D"token punctuation">}</span><span =
+class=3D"token punctuation">}</span></code></pre></div>
+<h2 id=3D"=EC=9D=91=EB=8B=B5-=ED=97=A4=EB=8D=94" style=3D"position:relative=
+;"><a href=3D"https://www.daleseo.com/python-requests/#%EC%9D%91%EB%8B%B5-%=
+ED%97%A4%EB%8D%94" aria-label=3D"=EC=9D=91=EB=8B=B5 =ED=97=A4=EB=8D=94 perm=
+alink" class=3D"anchor before"><svg aria-hidden=3D"true" focusable=3D"false=
+" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fi=
+ll-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0=
+ 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.9=
+8 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12=
+ 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.=
+25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></=
+a>=EC=9D=91=EB=8B=B5 =ED=97=A4=EB=8D=94</h2>
+<p>=EC=9D=91=EB=8B=B5=EC=97=90 =EB=8C=80=ED=95=9C =EB=A9=94=ED=83=80 =EB=8D=
+=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =EB=8B=B4=EA=B3=A0 =EC=9E=88=EB=8A=94 =EC=9D=
+=91=EB=8B=B5 =ED=97=A4=EB=8D=94=EB=8A=94 <code>headers</code> =EC=86=8D=EC=
+=84=B1=EC=9D=84 =ED=86=B5=ED=95=B4 =EC=82=AC=EC=A0=84=EC=9D=98 =ED=98=95=ED=
+=83=9C=EB=A1=9C =EC=96=BB=EC=9D=84 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=
+=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py"><span class=3D"token operator">&gt;&gt;</s=
+pan><span class=3D"token operator">&gt;</span> response <span class=3D"toke=
+n operator">=3D</span> requests<span class=3D"token punctuation">.</span>ge=
+t<span class=3D"token punctuation">(</span><span class=3D"token string">"ht=
+tps://jsonplaceholder.typicode.com/users/1"</span><span class=3D"token punc=
+tuation">)</span>
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> response<span class=3D"token punctuation">.</span>headers
+<span class=3D"token punctuation">{</span><span class=3D"token string">'Dat=
+e'</span><span class=3D"token punctuation">:</span> <span class=3D"token st=
+ring">'Sat, 12 Dec 2020 21:10:49 GMT'</span><span class=3D"token punctuatio=
+n">,</span> <span class=3D"token string">'Content-Type'</span><span class=
+=3D"token punctuation">:</span> <span class=3D"token string">'application/j=
+son; charset=3Dutf-8'</span><span class=3D"token punctuation">,</span> <spa=
+n class=3D"token string">'Transfer-Encoding'</span><span class=3D"token pun=
+ctuation">:</span> <span class=3D"token string">'chunked'</span><span class=
+=3D"token punctuation">,</span> <span class=3D"token string">'Connection'</=
+span><span class=3D"token punctuation">:</span> <span class=3D"token string=
+">'keep-alive'</span><span class=3D"token punctuation">,</span> <span class=
+=3D"token string">'Set-Cookie'</span><span class=3D"token punctuation">:</s=
+pan> <span class=3D"token string">'__cfduid=3Dd92df672c0d58b06b245dd0b8d317=
+e2141607807449; expires=3DMon, 11-Jan-21 21:10:49 GMT; path=3D/; domain=3D.=
+typicode.com; HttpOnly; SameSite=3DLax'</span><span class=3D"token punctuat=
+ion">,</span> <span class=3D"token string">'X-Powered-By'</span><span class=
+=3D"token punctuation">:</span> <span class=3D"token string">'Express'</spa=
+n><span class=3D"token punctuation">,</span> <span class=3D"token string">'=
+X-Ratelimit-Limit'</span><span class=3D"token punctuation">:</span> <span c=
+lass=3D"token string">'1000'</span><span class=3D"token punctuation">,</spa=
+n> <span class=3D"token string">'X-Ratelimit-Remaining'</span><span class=
+=3D"token punctuation">:</span> <span class=3D"token string">'999'</span><s=
+pan class=3D"token punctuation">,</span> <span class=3D"token string">'X-Ra=
+telimit-Reset'</span><span class=3D"token punctuation">:</span> <span class=
+=3D"token string">'1607798104'</span><span class=3D"token punctuation">,</s=
+pan> <span class=3D"token string">'Vary'</span><span class=3D"token punctua=
+tion">:</span> <span class=3D"token string">'Origin, Accept-Encoding'</span=
+><span class=3D"token punctuation">,</span> <span class=3D"token string">'A=
+ccess-Control-Allow-Credentials'</span><span class=3D"token punctuation">:<=
+/span> <span class=3D"token string">'true'</span><span class=3D"token punct=
+uation">,</span> <span class=3D"token string">'Cache-Control'</span><span c=
+lass=3D"token punctuation">:</span> <span class=3D"token string">'max-age=
+=3D43200'</span><span class=3D"token punctuation">,</span> <span class=3D"t=
+oken string">'Pragma'</span><span class=3D"token punctuation">:</span> <spa=
+n class=3D"token string">'no-cache'</span><span class=3D"token punctuation"=
+>,</span> <span class=3D"token string">'Expires'</span><span class=3D"token=
+ punctuation">:</span> <span class=3D"token string">'-1'</span><span class=
+=3D"token punctuation">,</span> <span class=3D"token string">'X-Content-Typ=
+e-Options'</span><span class=3D"token punctuation">:</span> <span class=3D"=
+token string">'nosniff'</span><span class=3D"token punctuation">,</span> <s=
+pan class=3D"token string">'Etag'</span><span class=3D"token punctuation">:=
+</span> <span class=3D"token string">'W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"'<=
+/span><span class=3D"token punctuation">,</span> <span class=3D"token strin=
+g">'Via'</span><span class=3D"token punctuation">:</span> <span class=3D"to=
+ken string">'1.1 vegur'</span><span class=3D"token punctuation">,</span> <s=
+pan class=3D"token string">'CF-Cache-Status'</span><span class=3D"token pun=
+ctuation">:</span> <span class=3D"token string">'HIT'</span><span class=3D"=
+token punctuation">,</span> <span class=3D"token string">'Age'</span><span =
+class=3D"token punctuation">:</span> <span class=3D"token string">'9352'</s=
+pan><span class=3D"token punctuation">,</span> <span class=3D"token string"=
+>'cf-request-id'</span><span class=3D"token punctuation">:</span> <span cla=
+ss=3D"token string">'06fa63d142000038668b9a7000000001'</span><span class=3D=
+"token punctuation">,</span> <span class=3D"token string">'Expect-CT'</span=
+><span class=3D"token punctuation">:</span> <span class=3D"token string">'m=
+ax-age=3D604800, report-uri=3D"https://report-uri.cloudflare.com/cdn-cgi/be=
+acon/expect-ct"'</span><span class=3D"token punctuation">,</span> <span cla=
+ss=3D"token string">'Report-To'</span><span class=3D"token punctuation">:</=
+span> <span class=3D"token string">'{"endpoints":[{"url":"https:\\/\\/a.nel=
+.cloudflare.com\\/report?s=3DVk2e8Q%2FBK4wOSQc12Cgs0nqvZHpyUb4c0o%2BWCgLzwd=
+qPLQM2HJ5hNHW%2Fmc8fNr73wqQ2LrzEdScfv5bejTYVrXRlUfAyPcGnv1me%2BHlZKc7IKKOi%=
+2BO%2ButGVrdkWS"}],"group":"cf-nel","max_age":604800}'</span><span class=3D=
+"token punctuation">,</span> <span class=3D"token string">'NEL'</span><span=
+ class=3D"token punctuation">:</span> <span class=3D"token string">'{"repor=
+t_to":"cf-nel","max_age":604800}'</span><span class=3D"token punctuation">,=
+</span> <span class=3D"token string">'Server'</span><span class=3D"token pu=
+nctuation">:</span> <span class=3D"token string">'cloudflare'</span><span c=
+lass=3D"token punctuation">,</span> <span class=3D"token string">'CF-RAY'</=
+span><span class=3D"token punctuation">:</span> <span class=3D"token string=
+">'600a6f2edfe23866-IAD'</span><span class=3D"token punctuation">,</span> <=
+span class=3D"token string">'Content-Encoding'</span><span class=3D"token p=
+unctuation">:</span> <span class=3D"token string">'gzip'</span><span class=
+=3D"token punctuation">}</span>
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> response<span class=3D"token punctuation">.</span>headers<spa=
+n class=3D"token punctuation">[</span><span class=3D"token string">'Content=
+-Type'</span><span class=3D"token punctuation">]</span>
+<span class=3D"token string">'application/json; charset=3Dutf-8'</span></co=
+de></pre></div>
+<h2 id=3D"=EC=9A=94=EC=B2=AD-=EC=BF=BC=EB=A6=AC" style=3D"position:relative=
+;"><a href=3D"https://www.daleseo.com/python-requests/#%EC%9A%94%EC%B2%AD-%=
+EC%BF%BC%EB%A6%AC" aria-label=3D"=EC=9A=94=EC=B2=AD =EC=BF=BC=EB=A6=AC perm=
+alink" class=3D"anchor before"><svg aria-hidden=3D"true" focusable=3D"false=
+" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fi=
+ll-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0=
+ 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.9=
+8 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12=
+ 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.=
+25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></=
+a>=EC=9A=94=EC=B2=AD =EC=BF=BC=EB=A6=AC</h2>
+<p>GET =EB=B0=A9=EC=8B=9D=EC=9C=BC=EB=A1=9C HTTP =EC=9A=94=EC=B2=AD=EC=9D=
+=84 =ED=95=A0 =EB=95=8C=EB=8A=94 =EC=BF=BC=EB=A6=AC =EC=8A=A4=ED=8A=B8=EB=
+=A7=81(query string)=EC=9D=84 =ED=86=B5=ED=95=B4 =EC=9D=91=EB=8B=B5=EB=B0=
+=9B=EC=9D=84 =EB=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =ED=95=84=ED=84=B0=EB=A7=
+=81=ED=95=98=EB=8A=94 =EA=B2=BD=EC=9A=B0=EA=B0=80 =EB=A7=8E=EC=8A=B5=EB=8B=
+=88=EB=8B=A4.</p>
+<p><code>params</code> =EC=98=B5=EC=85=98=EC=9D=84 =EC=82=AC=EC=9A=A9=ED=95=
+=98=EB=A9=B4 =EC=BF=BC=EB=A6=AC =EC=8A=A4=ED=81=AC=EB=A7=81=EC=9D=84 =EC=82=
+=AC=EC=A0=84=EC=9D=98 =ED=98=95=ED=83=9C=EB=A1=9C =EB=84=98=EA=B8=B8 =EC=88=
+=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py"><span class=3D"token comment"># https://js=
+onplaceholder.typicode.com/posts?userId=3D1</span>
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> response <span class=3D"token operator">=3D</span> requests<s=
+pan class=3D"token punctuation">.</span>get<span class=3D"token punctuation=
+">(</span><span class=3D"token string">"https://jsonplaceholder.typicode.co=
+m/posts"</span><span class=3D"token punctuation">,</span> params<span class=
+=3D"token operator">=3D</span><span class=3D"token punctuation">{</span><sp=
+an class=3D"token string">"userId"</span><span class=3D"token punctuation">=
+:</span> <span class=3D"token string">"1"</span><span class=3D"token punctu=
+ation">}</span><span class=3D"token punctuation">)</span>
+<span class=3D"token operator">&gt;&gt;</span><span class=3D"token operator=
+">&gt;</span> <span class=3D"token punctuation">[</span>post<span class=3D"=
+token punctuation">[</span><span class=3D"token string">"id"</span><span cl=
+ass=3D"token punctuation">]</span> <span class=3D"token keyword">for</span>=
+ post <span class=3D"token keyword">in</span> response<span class=3D"token =
+punctuation">.</span>json<span class=3D"token punctuation">(</span><span cl=
+ass=3D"token punctuation">)</span><span class=3D"token punctuation">]</span=
+>
+<span class=3D"token punctuation">[</span><span class=3D"token number">1</s=
+pan><span class=3D"token punctuation">,</span> <span class=3D"token number"=
+>2</span><span class=3D"token punctuation">,</span> <span class=3D"token nu=
+mber">3</span><span class=3D"token punctuation">,</span> <span class=3D"tok=
+en number">4</span><span class=3D"token punctuation">,</span> <span class=
+=3D"token number">5</span><span class=3D"token punctuation">,</span> <span =
+class=3D"token number">6</span><span class=3D"token punctuation">,</span> <=
+span class=3D"token number">7</span><span class=3D"token punctuation">,</sp=
+an> <span class=3D"token number">8</span><span class=3D"token punctuation">=
+,</span> <span class=3D"token number">9</span><span class=3D"token punctuat=
+ion">,</span> <span class=3D"token number">10</span><span class=3D"token pu=
+nctuation">]</span></code></pre></div>
+<h2 id=3D"=EC=9A=94=EC=B2=AD-=EC=A0=84=EB=AC=B8" style=3D"position:relative=
+;"><a href=3D"https://www.daleseo.com/python-requests/#%EC%9A%94%EC%B2%AD-%=
+EC%A0%84%EB%AC%B8" aria-label=3D"=EC=9A=94=EC=B2=AD =EC=A0=84=EB=AC=B8 perm=
+alink" class=3D"anchor before"><svg aria-hidden=3D"true" focusable=3D"false=
+" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fi=
+ll-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0=
+ 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.9=
+8 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12=
+ 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.=
+25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></=
+a>=EC=9A=94=EC=B2=AD =EC=A0=84=EB=AC=B8</h2>
+<p>POST=EB=82=98 PUT =EB=B0=A9=EC=8B=9D=EC=9C=BC=EB=A1=9C HTTP =EC=9A=94=EC=
+=B2=AD=EC=9D=84 =ED=95=A0 =EB=95=8C=EB=8A=94 =EB=B3=B4=ED=86=B5 =EC=9A=94=
+=EC=B2=AD =EC=A0=84=EB=AC=B8(request body/payload)=EC=97=90 =EB=8D=B0=EC=9D=
+=B4=ED=84=B0=EB=A5=BC =EB=8B=B4=EC=95=84=EC=84=9C =EB=B3=B4=EB=82=B4=EB=8A=
+=94=EB=8D=B0=EC=9A=94.</p>
+<p><code>data</code> =EC=98=B5=EC=85=98=EC=9D=84 =EC=82=AC=EC=9A=A9=ED=95=
+=98=EB=A9=B4, HTML =EC=96=91=EC=8B=9D(form) =ED=8F=AC=EB=A9=A7=EC=9D=98 =EB=
+=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =EC=A0=84=EC=86=A1=ED=95=A0 =EC=88=98 =EC=
+=9E=88=EC=9C=BC=EB=A9=B0, =EC=9D=B4 =EB=95=8C <code>Content-Type</code> =EC=
+=9A=94=EC=B2=AD =ED=97=A4=EB=8D=94=EB=8A=94 <code>application/x-www-form-ur=
+lencoded</code>=EB=A1=9C =EC=9E=90=EB=8F=99 =EC=84=A4=EC=A0=95=EB=90=A9=EB=
+=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py"><span class=3D"token operator">&gt;&gt;</s=
+pan><span class=3D"token operator">&gt;</span> requests<span class=3D"token=
+ punctuation">.</span>post<span class=3D"token punctuation">(</span><span c=
+lass=3D"token string">"https://jsonplaceholder.typicode.com/users"</span><s=
+pan class=3D"token punctuation">,</span> data<span class=3D"token operator"=
+>=3D</span><span class=3D"token punctuation">{</span><span class=3D"token s=
+tring">'name'</span><span class=3D"token punctuation">:</span> <span class=
+=3D"token string">'Test User'</span><span class=3D"token punctuation">}</sp=
+an><span class=3D"token punctuation">)</span>
+<span class=3D"token operator">&lt;</span>Response <span class=3D"token pun=
+ctuation">[</span><span class=3D"token number">201</span><span class=3D"tok=
+en punctuation">]</span><span class=3D"token operator">&gt;</span></code></=
+pre></div>
+<p><code>json</code> =EC=98=B5=EC=85=98=EC=9D=84 =EC=82=AC=EC=9A=A9=ED=95=
+=98=EB=A9=B4, REST API=EB=A1=9C JSON =ED=8F=AC=EB=A9=A7=EC=9D=98 =EB=8D=B0=
+=EC=9D=B4=ED=84=B0=EB=A5=BC =EC=A0=84=EC=86=A1=ED=95=A0 =EC=88=98 =EC=9E=88=
+=EC=9C=BC=EB=A9=B0, =EC=9D=B4 =EB=95=8C <code>Content-Type</code> =EC=9A=94=
+=EC=B2=AD =ED=97=A4=EB=8D=94=EB=8A=94 <code>application/json</code>=EB=A1=
+=9C =EC=9E=90=EB=8F=99 =EC=84=A4=EC=A0=95=EB=90=A9=EB=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py"><span class=3D"token operator">&gt;&gt;</s=
+pan><span class=3D"token operator">&gt;</span> requests<span class=3D"token=
+ punctuation">.</span>post<span class=3D"token punctuation">(</span><span c=
+lass=3D"token string">"https://jsonplaceholder.typicode.com/users"</span><s=
+pan class=3D"token punctuation">,</span> json<span class=3D"token operator"=
+>=3D</span><span class=3D"token punctuation">{</span><span class=3D"token s=
+tring">'name'</span><span class=3D"token punctuation">:</span> <span class=
+=3D"token string">'Test User'</span><span class=3D"token punctuation">}</sp=
+an><span class=3D"token punctuation">)</span>
+<span class=3D"token operator">&lt;</span>Response <span class=3D"token pun=
+ctuation">[</span><span class=3D"token number">201</span><span class=3D"tok=
+en punctuation">]</span><span class=3D"token operator">&gt;</span></code></=
+pre></div>
+<h2 id=3D"=EC=9A=94=EC=B2=AD-=ED=97=A4=EB=8D=94" style=3D"position:relative=
+;"><a href=3D"https://www.daleseo.com/python-requests/#%EC%9A%94%EC%B2%AD-%=
+ED%97%A4%EB%8D%94" aria-label=3D"=EC=9A=94=EC=B2=AD =ED=97=A4=EB=8D=94 perm=
+alink" class=3D"anchor before"><svg aria-hidden=3D"true" focusable=3D"false=
+" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fi=
+ll-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0=
+ 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.9=
+8 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12=
+ 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.=
+25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></=
+a>=EC=9A=94=EC=B2=AD =ED=97=A4=EB=8D=94</h2>
+<p><code>headers</code> =EC=98=B5=EC=85=98=EC=9D=84 =EC=82=AC=EC=9A=A9=ED=
+=95=98=EB=A9=B4 =EC=9A=94=EC=B2=AD =ED=97=A4=EB=8D=94=EB=8F=84 =EC=A7=81=EC=
+=A0=91 =EC=84=A4=EC=A0=95=ED=95=A0 =EC=88=98 =EC=9E=88=EB=8A=94=EB=8D=B0=EC=
+=9A=94.
+=EC=9D=B8=EC=A6=9D =ED=86=A0=ED=81=B0=EC=9D=84 =EB=B3=B4=EB=82=BC =EB=95=8C=
+ =EC=9C=A0=EC=9A=A9=ED=95=98=EA=B2=8C =EC=82=AC=EC=9A=A9=ED=95=A0 =EC=88=98=
+ =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</p>
+<div class=3D"gatsby-highlight" data-language=3D"py"><pre class=3D"language=
+-py"><code class=3D"language-py"><span class=3D"token operator">&gt;&gt;</s=
+pan><span class=3D"token operator">&gt;</span> requests<span class=3D"token=
+ punctuation">.</span>post<span class=3D"token punctuation">(</span><span c=
+lass=3D"token string">"https://jsonplaceholder.typicode.com/users"</span><s=
+pan class=3D"token punctuation">,</span> headers<span class=3D"token operat=
+or">=3D</span><span class=3D"token punctuation">{</span><span class=3D"toke=
+n string">'Content-Type'</span><span class=3D"token punctuation">:</span> <=
+span class=3D"token string">'Authorization: Bearer 12345'</span><span class=
+=3D"token punctuation">}</span><span class=3D"token punctuation">)</span>
+<span class=3D"token operator">&lt;</span>Response <span class=3D"token pun=
+ctuation">[</span><span class=3D"token number">201</span><span class=3D"tok=
+en punctuation">]</span><span class=3D"token operator">&gt;</span></code></=
+pre></div>
+<h2 id=3D"=EB=A7=88=EC=B9=98=EB=A9=B4=EC=84=9C" style=3D"position:relative;=
+"><a href=3D"https://www.daleseo.com/python-requests/#%EB%A7%88%EC%B9%98%EB=
+%A9%B4%EC%84%9C" aria-label=3D"=EB=A7=88=EC=B9=98=EB=A9=B4=EC=84=9C permali=
+nk" class=3D"anchor before"><svg aria-hidden=3D"true" focusable=3D"false" h=
+eight=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-=
+rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 =
+1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4=
+ 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13=
+ 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C=
+6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>=
+=EB=A7=88=EC=B9=98=EB=A9=B4=EC=84=9C</h2>
+<p>=EC=9D=B4=EC=83=81=EC=9C=BC=EB=A1=9C =ED=8C=8C=EC=9D=B4=EC=8D=AC=EC=9D=
+=98 requests =EB=9D=BC=EC=9D=B4=EB=B8=8C=EB=9F=AC=EB=A6=AC=EC=9D=98 =EA=B8=
+=B0=EB=B3=B8=EC=A0=81=EC=9D=B8 =EC=82=AC=EC=9A=A9 =EB=B0=A9=EB=B2=95=EC=9D=
+=84 =EC=82=B4=ED=8E=B4=EB=B3=B4=EC=95=98=EC=8A=B5=EB=8B=88=EB=8B=A4.
+=ED=8C=8C=EC=9D=B4=EC=8D=AC=EC=97=90 =EB=82=B4=EC=9E=A5=EB=90=9C =EB=AA=A8=
+=EB=93=88=EC=9D=80 =EC=95=84=EB=8B=88=EC=A7=80=EB=A7=8C HTTP =ED=98=B8=EC=
+=B6=9C=EC=9D=84 =ED=95=A0 =EB=95=8C =EA=B1=B0=EC=9D=98 =ED=91=9C=EC=A4=80=
+=EC=B2=98=EB=9F=BC =EC=82=AC=EC=9A=A9=EB=90=98=EB=8A=94 =EB=9D=BC=EC=9D=B4=
+=EB=B8=8C=EB=9F=AC=EB=A6=AC=EC=9D=B4=EA=B8=B0 =EB=95=8C=EB=AC=B8=EC=97=90 =
+=EC=82=AC=EC=9A=A9=EB=B2=95=EC=9D=84 =EC=9E=98 =EC=88=99=EC=A7=80=ED=95=B4=
+=EB=91=90=EC=8B=9C=EB=A9=B4 =ED=81=B0 =EB=8F=84=EC=9B=80=EC=9D=B4 =EB=90=98=
+=EC=8B=A4 =EA=B2=81=EB=8B=88=EB=8B=A4.</p></div><footer class=3D"Footer__Wr=
+apper-sc-gre9f8-0 eeaWxZ"><section class=3D"Footer__Meta-sc-gre9f8-1 fEJiea=
+"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" view=
+Box=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" =
+stroke-linecap=3D"round" stroke-linejoin=3D"round" aria-hidden=3D"true" foc=
+usable=3D"false" data-darkreader-inline-stroke=3D"" style=3D"--darkreader-i=
+nline-stroke:currentColor;"><circle cx=3D"12" cy=3D"12" r=3D"10"></circle><=
+polyline points=3D"12 6 12 12 16 14"></polyline></svg><span class=3D"Footer=
+__Date-sc-gre9f8-2 cRwaeQ">Dec 12, 2020</span></section><section><div class=
+=3D"Tags__Wrapper-sc-149pufk-0 bQjqEa"><a class=3D"Tag__Wrapper-sc-188fkyp-=
+0 jvikVE" href=3D"https://www.daleseo.com/?tag=3DPython">Python</a><a class=
+=3D"Tag__Wrapper-sc-188fkyp-0 jvikVE" href=3D"https://www.daleseo.com/?tag=
+=3DPython">=ED=8C=8C=EC=9D=B4=EC=8D=AC</a></div></section></footer></articl=
+e></main></div></div><div class=3D"Layout__FooterWrapper-sc-1z0mh3x-3 kAzmZ=
+O"><div class=3D"MaxWidthWrapper-sc-1qo6yt-0 jfjiLh"><footer class=3D"Foote=
+r__Wrapper-sc-1x384qh-0 WQNFR"><div class=3D"Footer__Row-sc-1x384qh-1 bFFuu=
+p"><a class=3D"Logo__Wrapper-sc-1fjvobh-0 UUOOO Footer__SmallLogo-sc-1x384q=
+h-2 jzPOes" href=3D"https://www.daleseo.com/"><svg width=3D"185" height=3D"=
+34" viewBox=3D"0 0 185 34" xmlns=3D"http://www.w3.org/2000/svg" class=3D"Lo=
+go__Svg-sc-1fjvobh-1 cwyRoq Footer__SmallLogo-sc-1x384qh-2 jzPOes"><path d=
+=3D"M13.3928 5.62647L13.3781 5.6117C12.9892 5.22002 12.4617 5 11.9117 5C11.=
+3618 5 10.8343 5.22002 10.4454 5.6117L0.607198 15.5227C0.218406 15.9146 -3.=
+86666e-07 16.446 -3.86666e-07 17C-3.86666e-07 17.554 0.218406 18.0854 0.607=
+198 18.4773L10.4454 28.3883C10.8343 28.78 11.3618 29 11.9117 29C12.4617 29 =
+12.9892 28.78 13.3781 28.3883L13.3928 28.3735C13.7816 27.9817 14 27.4503 14=
+ 26.8963C14 26.3422 13.7816 25.8109 13.3928 25.419L5.91287 17.8864C5.79727 =
+17.77 5.70556 17.6318 5.643 17.4797C5.58043 17.3276 5.54822 17.1646 5.54822=
+ 17C5.54822 16.8354 5.58043 16.6724 5.643 16.5203C5.70556 16.3682 5.79727 1=
+6.23 5.91287 16.1136L13.3928 8.58098C13.7816 8.18913 14 7.65776 14 7.10373C=
+14 6.54969 13.7816 6.01833 13.3928 5.62647Z"></path><path d=3D"M24.6404 7.4=
+H33.5444C35.6724 7.4 37.5484 7.81067 39.1724 8.632C40.8151 9.43467 42.0844 =
+10.5733 42.9804 12.048C43.8951 13.5227 44.3524 15.24 44.3524 17.2C44.3524 1=
+9.16 43.8951 20.8773 42.9804 22.352C42.0844 23.8267 40.8151 24.9747 39.1724=
+ 25.796C37.5484 26.5987 35.6724 27 33.5444 27H24.6404V7.4ZM33.3204 23.276C3=
+5.2804 23.276 36.8391 22.7347 37.9964 21.652C39.1724 20.5507 39.7604 19.066=
+7 39.7604 17.2C39.7604 15.3333 39.1724 13.8587 37.9964 12.776C36.8391 11.67=
+47 35.2804 11.124 33.3204 11.124H29.1764V23.276H33.3204ZM53.5412 11.712C55.=
+8746 11.712 57.6666 12.272 58.9172 13.392C60.1679 14.4933 60.7932 16.164 60=
+.7932 18.404V27H56.7052V25.124C55.8839 26.524 54.3532 27.224 52.1132 27.224=
+C50.9559 27.224 49.9479 27.028 49.0892 26.636C48.2492 26.244 47.6052 25.702=
+7 47.1572 25.012C46.7092 24.3213 46.4852 23.5373 46.4852 22.66C46.4852 21.2=
+6 47.0079 20.1587 48.0532 19.356C49.1172 18.5533 50.7506 18.152 52.9532 18.=
+152H56.4252C56.4252 17.2 56.1359 16.472 55.5572 15.968C54.9786 15.4453 54.1=
+106 15.184 52.9532 15.184C52.1506 15.184 51.3572 15.3147 50.5732 15.576C49.=
+8079 15.8187 49.1546 16.1547 48.6132 16.584L47.0452 13.532C47.8666 12.9533 =
+48.8466 12.5053 49.9852 12.188C51.1426 11.8707 52.3279 11.712 53.5412 11.71=
+2ZM53.2052 24.284C53.9519 24.284 54.6146 24.116 55.1932 23.78C55.7719 23.42=
+53 56.1826 22.912 56.4252 22.24V20.7H53.4292C51.6372 20.7 50.7412 21.288 50=
+.7412 22.464C50.7412 23.024 50.9559 23.472 51.3852 23.808C51.8332 24.1253 5=
+2.4399 24.284 53.2052 24.284ZM64.7465 6.224H69.1145V27H64.7465V6.224ZM87.92=
+43 19.524C87.9243 19.58 87.8963 19.972 87.8403 20.7H76.4443C76.6497 21.6333=
+ 77.135 22.3707 77.9003 22.912C78.6657 23.4533 79.6177 23.724 80.7563 23.72=
+4C81.5403 23.724 82.231 23.612 82.8283 23.388C83.4443 23.1453 84.0137 22.77=
+2 84.5363 22.268L86.8603 24.788C85.4417 26.412 83.3697 27.224 80.6443 27.22=
+4C78.9457 27.224 77.443 26.8973 76.1363 26.244C74.8297 25.572 73.8217 24.64=
+8 73.1123 23.472C72.403 22.296 72.0483 20.9613 72.0483 19.468C72.0483 17.99=
+33 72.3937 16.668 73.0843 15.492C73.7937 14.2973 74.755 13.3733 75.9683 12.=
+72C77.2003 12.048 78.5723 11.712 80.0843 11.712C81.559 11.712 82.8937 12.02=
+93 84.0883 12.664C85.283 13.2987 86.2163 14.2133 86.8883 15.408C87.579 16.5=
+84 87.9243 17.956 87.9243 19.524ZM80.1123 15.016C79.123 15.016 78.2923 15.2=
+96 77.6203 15.856C76.9483 16.416 76.5377 17.1813 76.3883 18.152H83.8083C83.=
+659 17.2 83.2483 16.444 82.5763 15.884C81.9043 15.3053 81.083 15.016 80.112=
+3 15.016ZM97.5804 27.336C96.0311 27.336 94.5284 27.1307 93.0724 26.72C91.63=
+51 26.2907 90.4777 25.74 89.6004 25.068L91.1404 21.652C91.9804 22.268 92.97=
+91 22.7627 94.1364 23.136C95.2937 23.5093 96.4511 23.696 97.6084 23.696C98.=
+8964 23.696 99.8484 23.5093 100.464 23.136C101.08 22.744 101.388 22.2307 10=
+1.388 21.596C101.388 21.1293 101.202 20.7467 100.828 20.448C100.474 20.1307=
+ 100.007 19.8787 99.4284 19.692C98.8684 19.5053 98.1031 19.3 97.1324 19.076=
+C95.6391 18.7213 94.4164 18.3667 93.4644 18.012C92.5124 17.6573 91.6911 17.=
+088 91.0004 16.304C90.3284 15.52 89.9924 14.4747 89.9924 13.168C89.9924 12.=
+0293 90.3004 11.0027 90.9164 10.088C91.5324 9.15467 92.4564 8.41733 93.6884=
+ 7.876C94.9391 7.33467 96.4604 7.064 98.2524 7.064C99.5031 7.064 100.726 7.=
+21333 101.92 7.512C103.115 7.81067 104.16 8.24 105.056 8.8L103.656 12.244C1=
+01.846 11.2173 100.035 10.704 98.2244 10.704C96.9551 10.704 96.0124 10.9093=
+ 95.3964 11.32C94.7991 11.7307 94.5004 12.272 94.5004 12.944C94.5004 13.616=
+ 94.8457 14.12 95.5364 14.456C96.2457 14.7733 97.3191 15.0907 98.7564 15.40=
+8C100.25 15.7627 101.472 16.1173 102.424 16.472C103.376 16.8267 104.188 17.=
+3867 104.86 18.152C105.551 18.9173 105.896 19.9533 105.896 21.26C105.896 22=
+.38 105.579 23.4067 104.944 24.34C104.328 25.2547 103.395 25.9827 102.144 2=
+6.524C100.894 27.0653 99.3724 27.336 97.5804 27.336ZM123.444 19.524C123.444=
+ 19.58 123.416 19.972 123.36 20.7H111.964C112.169 21.6333 112.655 22.3707 1=
+13.42 22.912C114.185 23.4533 115.137 23.724 116.276 23.724C117.06 23.724 11=
+7.751 23.612 118.348 23.388C118.964 23.1453 119.533 22.772 120.056 22.268L1=
+22.38 24.788C120.961 26.412 118.889 27.224 116.164 27.224C114.465 27.224 11=
+2.963 26.8973 111.656 26.244C110.349 25.572 109.341 24.648 108.632 23.472C1=
+07.923 22.296 107.568 20.9613 107.568 19.468C107.568 17.9933 107.913 16.668=
+ 108.604 15.492C109.313 14.2973 110.275 13.3733 111.488 12.72C112.72 12.048=
+ 114.092 11.712 115.604 11.712C117.079 11.712 118.413 12.0293 119.608 12.66=
+4C120.803 13.2987 121.736 14.2133 122.408 15.408C123.099 16.584 123.444 17.=
+956 123.444 19.524ZM115.632 15.016C114.643 15.016 113.812 15.296 113.14 15.=
+856C112.468 16.416 112.057 17.1813 111.908 18.152H119.328C119.179 17.2 118.=
+768 16.444 118.096 15.884C117.424 15.3053 116.603 15.016 115.632 15.016ZM13=
+3.52 27.224C131.933 27.224 130.505 26.8973 129.236 26.244C127.985 25.572 12=
+7.005 24.648 126.296 23.472C125.587 22.296 125.232 20.9613 125.232 19.468C1=
+25.232 17.9747 125.587 16.64 126.296 15.464C127.005 14.288 127.985 13.3733 =
+129.236 12.72C130.505 12.048 131.933 11.712 133.52 11.712C135.107 11.712 13=
+6.525 12.048 137.776 12.72C139.027 13.3733 140.007 14.288 140.716 15.464C14=
+1.425 16.64 141.78 17.9747 141.78 19.468C141.78 20.9613 141.425 22.296 140.=
+716 23.472C140.007 24.648 139.027 25.572 137.776 26.244C136.525 26.8973 135=
+.107 27.224 133.52 27.224ZM133.52 23.64C134.64 23.64 135.555 23.2667 136.26=
+4 22.52C136.992 21.7547 137.356 20.7373 137.356 19.468C137.356 18.1987 136.=
+992 17.1907 136.264 16.444C135.555 15.6787 134.64 15.296 133.52 15.296C132.=
+4 15.296 131.476 15.6787 130.748 16.444C130.02 17.1907 129.656 18.1987 129.=
+656 19.468C129.656 20.7373 130.02 21.7547 130.748 22.52C131.476 23.2667 132=
+.4 23.64 133.52 23.64Z"></path><path fill-rule=3D"evenodd" clip-rule=3D"eve=
+nodd" d=3D"M165.139 5.18098C166.222 5.57833 166.742 6.50607 166.302 7.25303=
+L155.083 26.188C154.641 26.935 153.404 27.2181 152.319 26.819C151.235 26.42=
+17 150.716 25.4922 151.158 24.7453L162.375 5.81197C162.817 5.06501 164.054 =
+4.78191 165.139 5.18098Z"></path><path d=3D"M171.066 5.62647L171.08 5.6117C=
+171.469 5.22002 171.997 5 172.547 5C173.097 5 173.624 5.22002 174.013 5.611=
+7L183.851 15.5227C184.24 15.9146 184.458 16.446 184.458 17C184.458 17.554 1=
+84.24 18.0854 183.851 18.4773L174.013 28.3883C173.624 28.78 173.097 29 172.=
+547 29C171.997 29 171.469 28.78 171.08 28.3883L171.066 28.3735C170.677 27.9=
+817 170.458 27.4503 170.458 26.8963C170.458 26.3422 170.677 25.8109 171.066=
+ 25.419L178.546 17.8864C178.661 17.77 178.753 17.6318 178.816 17.4797C178.8=
+78 17.3276 178.91 17.1646 178.91 17C178.91 16.8354 178.878 16.6724 178.816 =
+16.5203C178.753 16.3682 178.661 16.23 178.546 16.1136L171.066 8.58098C170.6=
+77 8.18913 170.458 7.65776 170.458 7.10373C170.458 6.54969 170.677 6.01833 =
+171.066 5.62647Z"></path></svg><span style=3D"border: 0px; clip: rect(0px, =
+0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; =
+position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;=
+ --darkreader-inline-border-top: initial; --darkreader-inline-border-right:=
+ initial; --darkreader-inline-border-bottom: initial; --darkreader-inline-b=
+order-left: initial;" data-darkreader-inline-border-top=3D"" data-darkreade=
+r-inline-border-right=3D"" data-darkreader-inline-border-bottom=3D"" data-d=
+arkreader-inline-border-left=3D"">Logo</span></a><section><ul class=3D"Soci=
+al__Wrapper-sc-118509v-0 QSYSu"><li><a target=3D"_blank" rel=3D"noopener no=
+referrer" href=3D"https://twitter.com/DaleSeo" class=3D"IconLink__Wrapper-s=
+c-fqjk86-0 fTXPon"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20" h=
+eight=3D"20" fill=3D"currentColor" viewBox=3D"0 0 24 24" aria-hidden=3D"tru=
+e" focusable=3D"false" class=3D"IconLink__BlockIcon-sc-fqjk86-1 gCueyU" dat=
+a-darkreader-inline-fill=3D"" style=3D"--darkreader-inline-fill:currentColo=
+r;"><title>twitter</title><path d=3D"M23.953 4.57a10 10 0 01-2.825.775 4.95=
+8 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.38=
+4 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71=
+.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946=
+ 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0=
+ 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.=
+053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.=
+59z"></path></svg><span style=3D"border: 0px; clip: rect(0px, 0px, 0px, 0px=
+); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: abs=
+olute; width: 1px; white-space: nowrap; overflow-wrap: normal; --darkreader=
+-inline-border-top: initial; --darkreader-inline-border-right: initial; --d=
+arkreader-inline-border-bottom: initial; --darkreader-inline-border-left: i=
+nitial;" data-darkreader-inline-border-top=3D"" data-darkreader-inline-bord=
+er-right=3D"" data-darkreader-inline-border-bottom=3D"" data-darkreader-inl=
+ine-border-left=3D"">twitter</span></a></li><li><a target=3D"_blank" rel=3D=
+"noopener noreferrer" href=3D"https://github.com/DaleSeo" class=3D"IconLink=
+__Wrapper-sc-fqjk86-0 fTXPon"><svg xmlns=3D"http://www.w3.org/2000/svg" wid=
+th=3D"20" height=3D"20" fill=3D"currentColor" viewBox=3D"0 0 24 24" aria-hi=
+dden=3D"true" focusable=3D"false" class=3D"IconLink__BlockIcon-sc-fqjk86-1 =
+gCueyU" data-darkreader-inline-fill=3D"" style=3D"--darkreader-inline-fill:=
+currentColor;"><title>github</title><path d=3D"M12 .297c-6.63 0-12 5.373-12=
+ 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.0=
+15-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-=
+1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2=
+.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466=
+-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.3=
+22 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.=
+285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 =
+0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.01=
+5 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373=
+-12-12-12"></path></svg><span style=3D"border: 0px; clip: rect(0px, 0px, 0p=
+x, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; positio=
+n: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal; --dark=
+reader-inline-border-top: initial; --darkreader-inline-border-right: initia=
+l; --darkreader-inline-border-bottom: initial; --darkreader-inline-border-l=
+eft: initial;" data-darkreader-inline-border-top=3D"" data-darkreader-inlin=
+e-border-right=3D"" data-darkreader-inline-border-bottom=3D"" data-darkread=
+er-inline-border-left=3D"">github</span></a></li><li><a target=3D"_blank" r=
+el=3D"noopener noreferrer" href=3D"https://discord.gg/ZM9seuUYBz" class=3D"=
+IconLink__Wrapper-sc-fqjk86-0 fTXPon"><svg xmlns=3D"http://www.w3.org/2000/=
+svg" width=3D"20" height=3D"20" fill=3D"currentColor" viewBox=3D"0 0 24 24"=
+ aria-hidden=3D"true" focusable=3D"false" class=3D"IconLink__BlockIcon-sc-f=
+qjk86-1 gCueyU" data-darkreader-inline-fill=3D"" style=3D"--darkreader-inli=
+ne-fill:currentColor;"><title>discord</title><path d=3D"M20.317 4.3698a19.7=
+913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8=
+648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.=
+6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699=
+.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 0=
+0.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-=
+.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528=
+-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517=
+-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0=
+614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-=
+.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.=
+698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5=
+219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-=
+13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1=
+569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2=
+.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-=
+2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.15=
+68 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"></path></svg><span style=3D"b=
+order: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; over=
+flow: hidden; padding: 0px; position: absolute; width: 1px; white-space: no=
+wrap; overflow-wrap: normal; --darkreader-inline-border-top: initial; --dar=
+kreader-inline-border-right: initial; --darkreader-inline-border-bottom: in=
+itial; --darkreader-inline-border-left: initial;" data-darkreader-inline-bo=
+rder-top=3D"" data-darkreader-inline-border-right=3D"" data-darkreader-inli=
+ne-border-bottom=3D"" data-darkreader-inline-border-left=3D"">discord</span=
+></a></li><li><a target=3D"_blank" rel=3D"noopener noreferrer" href=3D"http=
+s://www.linkedin.com/in/daleseo/" class=3D"IconLink__Wrapper-sc-fqjk86-0 fT=
+XPon"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20" height=3D"20" =
+fill=3D"currentColor" viewBox=3D"0 0 24 24" aria-hidden=3D"true" focusable=
+=3D"false" class=3D"IconLink__BlockIcon-sc-fqjk86-1 gCueyU" data-darkreader=
+-inline-fill=3D"" style=3D"--darkreader-inline-fill:currentColor;"><title>l=
+inkedin</title><path d=3D"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1=
+.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.=
+477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.4=
+33c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.06=
+4.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.56=
+4v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771=
+ 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"=
+></path></svg><span style=3D"border: 0px; clip: rect(0px, 0px, 0px, 0px); h=
+eight: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolut=
+e; width: 1px; white-space: nowrap; overflow-wrap: normal; --darkreader-inl=
+ine-border-top: initial; --darkreader-inline-border-right: initial; --darkr=
+eader-inline-border-bottom: initial; --darkreader-inline-border-left: initi=
+al;" data-darkreader-inline-border-top=3D"" data-darkreader-inline-border-r=
+ight=3D"" data-darkreader-inline-border-bottom=3D"" data-darkreader-inline-=
+border-left=3D"">linkedIn</span></a></li><li><a target=3D"_blank" rel=3D"no=
+opener noreferrer" href=3D"https://medium.com/@dale.seo" class=3D"IconLink_=
+_Wrapper-sc-fqjk86-0 fTXPon"><svg xmlns=3D"http://www.w3.org/2000/svg" widt=
+h=3D"20" height=3D"20" fill=3D"currentColor" viewBox=3D"0 0 24 24" aria-hid=
+den=3D"true" focusable=3D"false" class=3D"IconLink__BlockIcon-sc-fqjk86-1 g=
+CueyU" data-darkreader-inline-fill=3D"" style=3D"--darkreader-inline-fill:c=
+urrentColor;"><title>medium</title><path d=3D"M13.54 12a6.8 6.8 0 01-6.77 6=
+.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0=
+ 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.=
+38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75=
+s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"></path></svg><span style=3D"=
+border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; ove=
+rflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: n=
+owrap; overflow-wrap: normal; --darkreader-inline-border-top: initial; --da=
+rkreader-inline-border-right: initial; --darkreader-inline-border-bottom: i=
+nitial; --darkreader-inline-border-left: initial;" data-darkreader-inline-b=
+order-top=3D"" data-darkreader-inline-border-right=3D"" data-darkreader-inl=
+ine-border-bottom=3D"" data-darkreader-inline-border-left=3D"">medium</span=
+></a></li></ul></section></div><section><p class=3D"Footer__Copyright-sc-1x=
+384qh-3 efydok">=C2=A9 2016-2021 Dale Seo. All Rights Reserved.</p></sectio=
+n></footer></div></div></div></div><div id=3D"gatsby-announcer" style=3D"po=
+sition: absolute; top: 0px; width: 1px; height: 1px; padding: 0px; overflow=
+: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border: 0px;=
+ --darkreader-inline-border-top: initial; --darkreader-inline-border-right:=
+ initial; --darkreader-inline-border-bottom: initial; --darkreader-inline-b=
+order-left: initial;" aria-live=3D"assertive" aria-atomic=3D"true" data-dar=
+kreader-inline-border-top=3D"" data-darkreader-inline-border-right=3D"" dat=
+a-darkreader-inline-border-bottom=3D"" data-darkreader-inline-border-left=
+=3D""></div></div></body></html>
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a7d26d19-6b3f-4703-b23e-287d5d31d702@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-dc384ebb-3d43-4c63-ab94-e3d7904462a4@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cf80c815-57d0-4067-8b29-d29c041c44da@mhtml.blink
+
+@charset "utf-8";
+
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_=
+text > img[src^=3D"https://www.gstatic.com/images/branding/googlelogo"], sp=
+an[data-href^=3D"https://www.hcaptcha.com/"] > #icon, #bit-notification-bar=
+-iframe, ::-webkit-calendar-picker-indicator { filter: invert(100%) hue-rot=
+ate(180deg) contrast(90%) !important; }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1be5ec1a-89c5-4750-b372-29b2b31e583a@mhtml.blink
+
+@charset "utf-8";
+
+[data-darkreader-inline-bgcolor] { background-color: var(--darkreader-inlin=
+e-bgcolor)  !important; }
+
+[data-darkreader-inline-bgimage] { background-image: var(--darkreader-inlin=
+e-bgimage)  !important; }
+
+[data-darkreader-inline-border] { border-color: var(--darkreader-inline-bor=
+der)  !important; }
+
+[data-darkreader-inline-border-bottom] { border-bottom-color: var(--darkrea=
+der-inline-border-bottom)  !important; }
+
+[data-darkreader-inline-border-left] { border-left-color: var(--darkreader-=
+inline-border-left)  !important; }
+
+[data-darkreader-inline-border-right] { border-right-color: var(--darkreade=
+r-inline-border-right)  !important; }
+
+[data-darkreader-inline-border-top] { border-top-color: var(--darkreader-in=
+line-border-top)  !important; }
+
+[data-darkreader-inline-boxshadow] { box-shadow: var(--darkreader-inline-bo=
+xshadow)  !important; }
+
+[data-darkreader-inline-color] { color: var(--darkreader-inline-color)  !im=
+portant; }
+
+[data-darkreader-inline-fill] { fill: var(--darkreader-inline-fill)  !impor=
+tant; }
+
+[data-darkreader-inline-stroke] { stroke: var(--darkreader-inline-stroke)  =
+!important; }
+
+[data-darkreader-inline-outline] { outline-color: var(--darkreader-inline-o=
+utline)  !important; }
+
+[data-darkreader-inline-stopcolor] { stop-color: var(--darkreader-inline-st=
+opcolor)  !important; }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b2b5291a-f0d7-4cb2-844a-311dc6fffe07@mhtml.blink
+
+@charset "utf-8";
+
+:root { --darkreader-neutral-background: #131516; --darkreader-neutral-text=
+: #d8d4cf; --darkreader-selection-background: #004daa; --darkreader-selecti=
+on-text: #e8e6e3; }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4daddf8a-30ba-40d5-928e-a43bedfe5949@mhtml.blink
+
+@charset "utf-8";
+
+:root { }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-72a5c88e-0356-491b-aaf7-70f2f4c326e0@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(24, 26, 27) !important; }
+
+html, body, input, textarea, select, button { background-color: rgb(24, 26,=
+ 27); }
+
+html, body, input, textarea, select, button { border-color: rgb(115, 107, 9=
+4); color: rgb(232, 230, 227); }
+
+a { color: rgb(51, 145, 255); }
+
+table { border-color: rgb(84, 91, 94); }
+
+::placeholder { color: rgb(178, 171, 161); }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill =
+{ background-color: rgb(85, 91, 0) !important; color: rgb(232, 230, 227) !i=
+mportant; }
+
+::-webkit-scrollbar { background-color: rgb(32, 35, 36); color: rgb(171, 16=
+4, 153); }
+
+::-webkit-scrollbar-thumb { background-color: rgb(69, 74, 77); }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(87, 94, 98); }
+
+::-webkit-scrollbar-thumb:active { background-color: rgb(72, 78, 81); }
+
+::-webkit-scrollbar-corner { background-color: rgb(24, 26, 27); }
+
+::selection { background-color: rgb(0, 77, 170) !important; color: rgb(232,=
+ 230, 227) !important; }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9ca02e03-a395-4037-a35e-a2b1a81988f8@mhtml.blink
+
+@charset "utf-8";
+
+code[class*=3D"language-"], pre[class*=3D"language-"] { overflow-wrap: norm=
+al; background: none; color: rgb(204, 204, 204); font-family: Consolas, Mon=
+aco, "Andale Mono", "Ubuntu Mono", monospace; font-size: 1em; hyphens: none=
+; line-height: 1.5; tab-size: 4; text-align: left; white-space: pre; word-b=
+reak: normal; word-spacing: normal; }
+
+pre[class*=3D"language-"] { margin: 0.5em 0px; overflow: auto; padding: 1em=
+; }
+
+:not(pre) > code[class*=3D"language-"], pre[class*=3D"language-"] { backgro=
+und: rgb(45, 45, 45); }
+
+:not(pre) > code[class*=3D"language-"] { border-radius: 0.3em; padding: 0.1=
+em; white-space: normal; }
+
+.token.block-comment, .token.cdata, .token.comment, .token.doctype, .token.=
+prolog { color: rgb(153, 153, 153); }
+
+.token.punctuation { color: rgb(204, 204, 204); }
+
+.token.attr-name, .token.deleted, .token.namespace, .token.tag { color: rgb=
+(226, 119, 122); }
+
+.token.function-name { color: rgb(97, 150, 204); }
+
+.token.boolean, .token.function, .token.number { color: rgb(240, 141, 73); =
+}
+
+.token.class-name, .token.constant, .token.property, .token.symbol { color:=
+ rgb(248, 197, 85); }
+
+.token.atrule, .token.builtin, .token.important, .token.keyword, .token.sel=
+ector { color: rgb(204, 153, 205); }
+
+.token.attr-value, .token.char, .token.regex, .token.string, .token.variabl=
+e { color: rgb(126, 198, 153); }
+
+.token.entity, .token.operator, .token.url { color: rgb(103, 205, 204); }
+
+.token.bold, .token.important { font-weight: 700; }
+
+.token.italic { font-style: italic; }
+
+.token.entity { cursor: help; }
+
+.token.inserted { color: green; }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-76a1792a-d3ea-4cb4-896d-9b1605518628@mhtml.blink
+
+@charset "utf-8";
+
+code[class*=3D"language-"], pre[class*=3D"language-"] { background-image: n=
+one; background-color: initial; color: rgb(200, 195, 188); }
+
+:not(pre) > code[class*=3D"language-"], pre[class*=3D"language-"] { backgro=
+und-image: initial; background-color: rgb(34, 37, 38); }
+
+.token.block-comment, .token.cdata, .token.comment, .token.doctype, .token.=
+prolog { color: rgb(168, 160, 149); }
+
+.token.punctuation { color: rgb(200, 195, 188); }
+
+.token.attr-name, .token.deleted, .token.namespace, .token.tag { color: rgb=
+(226, 118, 121); }
+
+.token.function-name { color: rgb(106, 161, 207); }
+
+.token.boolean, .token.function, .token.number { color: rgb(241, 146, 80); =
+}
+
+.token.class-name, .token.constant, .token.property, .token.symbol { color:=
+ rgb(248, 198, 87); }
+
+.token.atrule, .token.builtin, .token.important, .token.keyword, .token.sel=
+ector { color: rgb(202, 149, 203); }
+
+.token.attr-value, .token.char, .token.regex, .token.string, .token.variabl=
+e { color: rgb(129, 199, 156); }
+
+.token.entity, .token.operator, .token.url { color: rgb(110, 207, 206); }
+
+.token.inserted { color: rgb(114, 255, 114); }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-8dbf25bb-19c4-412c-b477-0a7f5c5b2832@mhtml.blink
+
+@charset "utf-8";
+
+@font-face { font-family: "Spoqa Han Sans Neo"; font-weight: 400; font-styl=
+e: normal; font-display: fallback; src: url("/fonts/SpoqaHanSansNeo-Regular=
+.woff2") format("woff2"); }
+
+@font-face { font-family: "Spoqa Han Sans Neo"; font-weight: 700; font-styl=
+e: normal; font-display: fallback; src: url("/fonts/SpoqaHanSansNeo-Bold.wo=
+ff2") format("woff2"); }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b=
+lockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, i=
+mg, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i=
+, center, dl, dt, dd, menu, ol, ul, li, fieldset, form, label, legend, tabl=
+e, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, detail=
+s, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, outp=
+ut, ruby, section, summary, time, mark, audio, video { margin: 0px; padding=
+: 0px; border: 0px; font: inherit; vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, =
+menu, nav, section { display: block; }
+
+[hidden] { display: none; }
+
+body { line-height: 1; }
+
+menu, ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote::before, blockquote::after, q::before, q::after { content: none;=
+ }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+:root { --color-background:hsl(210deg 18% 96%); --color-background-secondar=
+y:hsl(60deg 100% 100%); --color-text:hsl(214deg 100% 15%); --color-headline=
+:hsl(214deg 100% 15%); --color-paragraph:hsl(214deg 44% 19%); --color-prima=
+ry:hsl(171deg 100% 46%); --color-secondary:hsl(350deg 100% 66%); --color-te=
+rtiary:hsl(51deg 98% 65%); --color-gray:hsl(225deg,12%,40%); --color-gray-1=
+000:hsl(225deg,15%,15%); --color-overlay:hsl(220deg 5% 40% / 0.8); --spacin=
+g-1:4px; --spacing-2:8px; --spacing-3:12px; --spacing-4:16px; --spacing-5:2=
+0px; --spacing-6:24px; --spacing-7:28px; --spacing-8:32px; --spacing-9:36px=
+; --spacing-10:40px; --spacing-11:44px; --spacing-12:48px; --font-size-1:0.=
+25rem; --font-size-2:0.5rem; --font-size-3:0.75rem; --font-size-3-5:0.875re=
+m; --font-size-4:1rem; --font-size-4-5:1.125rem; --font-size-5:1.25rem; --f=
+ont-size-6:1.5rem; --font-size-7:1.75rem; --font-size-8:2rem; --font-size-9=
+:2.25rem; --font-size-10:2.5rem; --font-size-p:1.125rem; --font-size-h6:0.8=
+75rem; --font-size-h5:1rem; --font-size-h4:1.2rem; --font-size-h3:1.5rem; -=
+-font-size-h2:1.8rem; --font-size-h1:2.1rem; --font-weight-regular:400; --f=
+ont-weight-bold:700; --font-family-sans:"Spoqa Han Sans Neo",-apple-system,=
+BlinkMacSystemFont,avenir next,avenir,segoe ui,helvetica neue,helvetica,Ubu=
+ntu,roboto,noto,arial,sans-serif; --font-family-mono:Menlo,Consolas,Monaco,=
+Liberation Mono,Lucida Console,monospace; --font-family-serif:Iowan Old Sty=
+le,Apple Garamond,Baskerville,Times New Roman,Droid Serif,Times,Source Seri=
+f Pro,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; }
+
+body.dark-mode { --color-background:hsl(216deg 6% 15%); --color-background-=
+secondary:hsl(240deg 8% 9%); --color-text:hsl(60deg 100% 100%); --color-hea=
+dline:hsl(60deg 100% 100%); --color-paragraph:hsl(214deg 16% 64%); --color-=
+primary:hsl(255deg 83% 65%); --color-secondary:hsl(155deg 61% 44%); --color=
+-tertiary:hsl(225deg 5% 47%); --color-gray:hsl(210deg,14%,66%); }
+
+html { box-sizing: border-box; }
+
+*, ::before, ::after { box-sizing: inherit; }
+
+body { background-color: var(--color-background); color: var(--color-text);=
+ font-family: var(--font-family-sans); font-weight: var(--font-weight-regul=
+ar); line-height: 1.6; }
+
+p { color: var(--color-paragraph); font-size: var(--font-size-p); }
+
+strong { font-weight: var(--font-weight-bold); }
+
+h1, h2, h3, h4, h5, h6 { color: var(--color-headline); font-weight: var(--f=
+ont-weight-bold); }
+
+h1 { font-size: var(--font-size-h1); }
+
+h2 { font-size: var(--font-size-h2); }
+
+h3 { font-size: var(--font-size-h3); }
+
+h4 { font-size: var(--font-size-h4); }
+
+a { color: inherit; text-decoration: none; }
+
+.UUOOO { display: flex; }
+
+.cwyRoq path:nth-of-type(2) { fill: var(--color-paragraph); }
+
+.cwyRoq path:not(:nth-of-type(2)) { fill: var(--color-primary); }
+
+.udIkW { display: block; margin: 0px; padding: 0px; border: none; backgroun=
+d: transparent; cursor: pointer; text-align: left; font: inherit; color: in=
+herit; }
+
+.udIkW:focus { outline-offset: 2px; }
+
+.udIkW:focus:not(:focus-visible) { outline: none; }
+
+.dbFAMx { display: block; padding: var(--spacing-2); }
+
+.fOcOOu { display: block; }
+
+.hSGQQW { display: flex; -webkit-box-align: center; align-items: center; li=
+st-style: none; }
+
+.ljIWm { display: flex; -webkit-box-pack: center; justify-content: center; =
+-webkit-box-align: center; align-items: center; }
+
+.Mryvw { display: none; }
+
+@media (min-width: 50rem) {
+  .Mryvw { display: revert; }
+}
+
+.kHnccE { padding: var(--spacing-1) var(--spacing-2); text-decoration: none=
+; color: var(--color-text); font-weight: var(--font-weight-regular); font-s=
+ize: var(--font-size-4); }
+
+.kHnccE:focus { outline-offset: 2px; }
+
+.jfjiLh { width: 100%; max-width: 1100px; margin: 0px auto; padding: 0 var(=
+--spacing-4); }
+
+@media (min-width: 34.375rem) {
+  .jfjiLh { padding: 0 var(--spacing-8); }
+}
+
+.frQtOZ { display: flex; gap: var(--spacing-4); -webkit-box-align: center; =
+align-items: center; padding: 16px 0px; }
+
+.ygDjb { margin-right: auto; }
+
+.emFxXA { display: none; }
+
+@media (min-width: 34.375rem) {
+  .emFxXA { display: revert; }
+}
+
+.dTfYCo { display: flex; }
+
+.AHuOS { padding: var(--spacing-2); display: none; }
+
+@media (min-width: 34.375rem) {
+  .AHuOS { display: block; }
+}
+
+.egLEJh { padding: var(--spacing-2); }
+
+@media (min-width: 34.375rem) {
+  .egLEJh { display: none; }
+}
+
+.fTXPon { display: block; padding: var(--spacing-2); }
+
+.gCueyU { display: block; }
+
+.QSYSu { display: flex; -webkit-box-pack: center; justify-content: center; =
+}
+
+.WQNFR { padding: var(--spacing-8); display: flex; flex-direction: column; =
+gap: var(--spacing-4); }
+
+.bFFuup { display: flex; flex-wrap: wrap; gap: var(--spacing-4); justify-co=
+ntent: space-around; -webkit-box-align: center; align-items: center; }
+
+.jzPOes { height: 28px; }
+
+.efydok { text-align: center; font-size: var(--font-size-3); font-weight: v=
+ar(--font-weight-regular); color: var(--color-gray); }
+
+.dbGMMk { background: var(--color-background); isolation: isolate; min-heig=
+ht: 100vh; display: flex; flex-direction: column; }
+
+.ixiLJW { position: sticky; z-index: 1; top: -16px; padding-top: 16px; tran=
+sition: background 350ms ease 0s; background: var(--color-background); opac=
+ity: 0.85; backdrop-filter: blur(10px); }
+
+.dUnKzd { isolation: isolate; flex: 1 1 0%; background: var(--color-backgro=
+und-secondary); }
+
+.kAzmZO { isolation: isolate; transition: background 350ms ease 0s; backgro=
+und: var(--color-background-secondary); }
+
+.gLLGeV { padding: 64px 32px; text-align: center; }
+
+.bjFRrj { overflow-wrap: break-word; }
+
+.jJMbc h2 { color: var(--color-secondary); margin-top: var(--spacing-12); m=
+argin-bottom: var(--spacing-4); }
+
+.jJMbc p { font-size: var(--font-size-p); margin-top: var(--spacing-4); mar=
+gin-bottom: var(--spacing-4); }
+
+.jJMbc a { text-decoration: none; transition: box-shadow 400ms ease 0s; box=
+-shadow: 0px 0px 0px var(--color-primary); color: var(--color-primary); fon=
+t-weight: var(--font-weight-regular); }
+
+.jJMbc a:hover { transition: box-shadow 100ms ease 0s; box-shadow: 0px 2px =
+0px var(--color-primary); }
+
+.jJMbc blockquote { background-color: var(--color-background); border-left:=
+ 5px solid var(--color-primary); border-radius: 0 var(--spacing-2) var(--sp=
+acing-2) 0; margin: var(--spacing-8) 0px; padding: var(--spacing-6) var(--s=
+pacing-4); color: var(--color-headline); font-style: italic; }
+
+.jJMbc blockquote p { margin: 0px; }
+
+.jJMbc code:not([class*=3D"language-"]) { font-family: var(--font-family-mo=
+no); font-size: 0.9em; letter-spacing: -0.5px; padding: 4.5px 6px; margin: =
+1px 0px; background: var(--color-background); color: var(--color-text); bor=
+der-radius: 3px; }
+
+.jJMbc .gatsby-code-title { margin-bottom: -0.5rem; padding: 0.5em 1em; fon=
+t-family: var(--font-family-mono); background-color: rgb(45, 45, 45); color=
+: white; border-radius: var(--spacing-2) var(--spacing-2) 0 0; display: inl=
+ine-block; }
+
+.jJMbc .gatsby-highlight { font-size: var(--font-size-3-5); border-radius: =
+var(--spacing-2); overflow: auto; margin-bottom: var(--spacing-8); }
+
+.jJMbc .gatsby-highlight > pre { margin: 0px; }
+
+.jJMbc .gatsby-highlight-code-line { background-color: rgb(77, 77, 77); dis=
+play: block; margin-right: -1em; margin-left: -1em; padding-right: 1em; pad=
+ding-left: 0.75em; border-left: 0.25em solid var(--color-primary); }
+
+.jvikVE { padding: var(--spacing-1) var(--spacing-2); border-radius: var(--=
+spacing-1); background: var(--color-background); color: var(--color-text); =
+opacity: 0.7; font-size: var(--font-size-3); transition: opacity 500ms ease=
+ 0s; text-decoration: none; }
+
+.jvikVE:hover, .jvikVE:focus { opacity: 1; transition: opacity 0ms ease 0s;=
+ }
+
+.bQjqEa { display: flex; gap: var(--spacing-1); flex-wrap: wrap; }
+
+.eeaWxZ { padding: var(--spacing-8) 0; display: flex; gap: var(--spacing-4)=
+; -webkit-box-pack: justify; justify-content: space-between; flex-wrap: wra=
+p; }
+
+.fEJiea { color: var(--color-text); opacity: 0.7; display: flex; gap: var(-=
+-spacing-2); -webkit-box-align: center; align-items: center; line-height: 0=
+; }
+
+.cRwaeQ { font-size: var(--font-size-4); }
+
+.hSpMLu { max-width: 1100px; margin: var(--spacing-8) auto; display: flex; =
+gap: var(--spacing-8); justify-content: space-evenly; }
+
+.jxKfMg { min-width: 300px; max-width: 700px; }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f7d7ffca-8280-45c4-8c86-55cd0f3fa956@mhtml.blink
+
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b=
+lockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, i=
+mg, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i=
+, center, dl, dt, dd, menu, ol, ul, li, fieldset, form, label, legend, tabl=
+e, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, detail=
+s, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, outp=
+ut, ruby, section, summary, time, mark, audio, video { border-color: initia=
+l; }
+
+menu, ol, ul { list-style-image: initial; }
+
+:root { --darkreader-bg--color-background: #1e2021; --darkreader-bg--color-=
+background-secondary: #181a1b; --darkreader-text--color-text: #d0ccc5; --da=
+rkreader-text--color-headline: #d0ccc5; --darkreader-text--color-paragraph:=
+ #c9c5be; --darkreader-bg--color-primary: #00bc9f; --darkreader-text--color=
+-primary: #28ffde; --darkreader-border--color-primary: #00b99c; --darkreade=
+r-text--color-secondary: #ff5370; --color-tertiary: hsl(51deg 98% 65%); --d=
+arkreader-text--color-gray: #a8a095; --color-gray-1000: hsl(225deg,15%,15%)=
+; --color-overlay: hsl(220deg 5% 40% / 0.8); --spacing-1: 4px; --spacing-2:=
+ 8px; --spacing-3: 12px; --spacing-4: 16px; --spacing-5: 20px; --spacing-6:=
+ 24px; --spacing-7: 28px; --spacing-8: 32px; --spacing-9: 36px; --spacing-1=
+0: 40px; --spacing-11: 44px; --spacing-12: 48px; --font-size-1: 0.25rem; --=
+font-size-2: 0.5rem; --font-size-3: 0.75rem; --font-size-3-5: 0.875rem; --f=
+ont-size-4: 1rem; --font-size-4-5: 1.125rem; --font-size-5: 1.25rem; --font=
+-size-6: 1.5rem; --font-size-7: 1.75rem; --font-size-8: 2rem; --font-size-9=
+: 2.25rem; --font-size-10: 2.5rem; --font-size-p: 1.125rem; --font-size-h6:=
+ 0.875rem; --font-size-h5: 1rem; --font-size-h4: 1.2rem; --font-size-h3: 1.=
+5rem; --font-size-h2: 1.8rem; --font-size-h1: 2.1rem; --font-weight-regular=
+: 400; --font-weight-bold: 700; --font-family-sans: "Spoqa Han Sans Neo",-a=
+pple-system,BlinkMacSystemFont,avenir next,avenir,segoe ui,helvetica neue,h=
+elvetica,Ubuntu,roboto,noto,arial,sans-serif; --font-family-mono: Menlo,Con=
+solas,Monaco,Liberation Mono,Lucida Console,monospace; --font-family-serif:=
+ Iowan Old Style,Apple Garamond,Baskerville,Times New Roman,Droid Serif,Tim=
+es,Source Serif Pro,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;=
+ }
+
+body.dark-mode { --darkreader-bg--color-background: #1d1f21; --darkreader-b=
+g--color-background-secondary: #111313; --darkreader-text--color-text: #e8e=
+6e3; --darkreader-text--color-headline: #e8e6e3; --darkreader-text--color-p=
+aragraph: #aea79d; --darkreader-bg--color-primary: #2e0d91; --darkreader-te=
+xt--color-primary: #835ef0; --darkreader-border--color-primary: #2d0d8e; --=
+darkreader-text--color-secondary: #57d6a1; --color-tertiary: hsl(225deg 5% =
+47%); --darkreader-text--color-gray: #b1aaa0; }
+
+body { background-color: var(--darkreader-bg--color-background); color: var=
+(--darkreader-text--color-text); }
+
+p { color: var(--darkreader-text--color-paragraph); }
+
+h1, h2, h3, h4, h5, h6 { color: var(--darkreader-text--color-headline); }
+
+a { color: inherit; text-decoration-color: initial; }
+
+.udIkW { border-color: initial; background-image: initial; background-color=
+: transparent; color: inherit; }
+
+.udIkW:focus:not(:focus-visible) { outline-color: initial; }
+
+.hSGQQW { list-style-image: initial; }
+
+.kHnccE { text-decoration-color: initial; color: var(--darkreader-text--col=
+or-text); }
+
+.efydok { color: var(--darkreader-text--color-gray); }
+
+.dbGMMk { background: var(--darkreader-bg--color-background); }
+
+.ixiLJW { background: var(--darkreader-bg--color-background); }
+
+.dUnKzd { background: var(--darkreader-bg--color-background-secondary); }
+
+.kAzmZO { background: var(--darkreader-bg--color-background-secondary); }
+
+.jJMbc h2 { color: var(--darkreader-text--color-secondary); }
+
+.jJMbc a { text-decoration-color: initial; box-shadow: 0px 0px 0px var(--da=
+rkreader-bg--color-primary); color: var(--darkreader-text--color-primary); =
+}
+
+.jJMbc a:hover { box-shadow: 0px 2px 0px var(--darkreader-bg--color-primary=
+); }
+
+.jJMbc blockquote { background-color: var(--darkreader-bg--color-background=
+); color: var(--darkreader-text--color-headline); border-left: 5px solid va=
+r(--darkreader-border--color-primary); }
+
+.jJMbc code:not([class*=3D"language-"]) { color: var(--darkreader-text--col=
+or-text); background: var(--darkreader-bg--color-background); }
+
+.jJMbc .gatsby-code-title { background-color: rgb(34, 37, 38); color: rgb(2=
+32, 230, 227); }
+
+.jJMbc .gatsby-highlight-code-line { background-color: rgb(58, 63, 65); bor=
+der-left: 0.25em solid var(--darkreader-border--color-primary); }
+
+.jvikVE { color: var(--darkreader-text--color-text); text-decoration-color:=
+ initial; background: var(--darkreader-bg--color-background); }
+
+.fEJiea { color: var(--darkreader-text--color-text); }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ad2c75d1-911c-4097-8b4a-f43cfa47a437@mhtml.blink
+
+@charset "utf-8";
+
+.gatsby-image-wrapper { position: relative; overflow: hidden; }
+
+.gatsby-image-wrapper img { inset: 0px; height: 100%; margin: 0px; max-widt=
+h: none; padding: 0px; position: absolute; width: 100%; object-fit: cover; =
+}
+
+.gatsby-image-wrapper [data-main-image] { opacity: 0; transform: translateZ=
+(0px); transition: opacity 0.25s linear 0s; will-change: opacity; }
+
+.gatsby-image-wrapper-constrained { display: inline-block; vertical-align: =
+top; }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9b17281d-82ec-40ca-909a-b38d067974ce@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-0c57ccde-d855-44d2-a288-28eaf21276b0@mhtml.blink
+
+@charset "utf-8";
+
+.anchor.before { position: absolute; top: 0px; left: 0px; transform: transl=
+ateX(-100%); padding-right: 4px; }
+
+.anchor.after { display: inline-block; padding-left: 4px; }
+
+h1 .anchor svg, h2 .anchor svg, h3 .anchor svg, h4 .anchor svg, h5 .anchor =
+svg, h6 .anchor svg { visibility: hidden; }
+
+h1:hover .anchor svg, h2:hover .anchor svg, h3:hover .anchor svg, h4:hover =
+.anchor svg, h5:hover .anchor svg, h6:hover .anchor svg, h1 .anchor:focus s=
+vg, h2 .anchor:focus svg, h3 .anchor:focus svg, h4 .anchor:focus svg, h5 .a=
+nchor:focus svg, h6 .anchor:focus svg { visibility: visible; }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-471786e0-e846-4b87-9bbd-dee71cadf71b@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b1388191-bee6-475a-ba78-92d18686fcb3@mhtml.blink
+
+@charset "utf-8";
+
+.vimvixen-hint { background-color: rgb(123, 83, 0) !important; border-color=
+: rgb(216, 176, 19) !important; color: rgb(243, 232, 200) !important; }
+
+::placeholder { opacity: 0.5 !important; }
+
+a[href=3D"https://coinmarketcap.com/"] > svg[width=3D"94"][height=3D"16"] >=
+ path { fill: var(--darkreader-neutral-text)  !important; }
+
+#edge-translate-panel-body { color: var(--darkreader-neutral-text)  !import=
+ant; }
+
+gr-main-header { background-color: rgb(15, 58, 72) !important; }
+
+embed[type=3D"application/pdf"] { filter: invert(100%) contrast(90%); }
+------MultipartBoundary--o0JX1LFS7GmjSJ9B6IJDZlUG7cm2eJbzSkGox3Ctal------
