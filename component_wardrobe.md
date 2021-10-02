@@ -35,9 +35,9 @@ Name of the commonly used component styles gathered
 <br>
 
 - Tool-tip
-![](./img/tooltip.png)
-npm install react-tooltip
-https://www.newline.co/@dmitryrogozhny/4-ways-to-show-tooltips-in-react-with-react-tooltip,-material-ui,-bootstrap,-or-semantic-ui--e3473190
+  ![](./img/tooltip.png)
+  npm install react-tooltip
+  https://www.newline.co/@dmitryrogozhny/4-ways-to-show-tooltips-in-react-with-react-tooltip,-material-ui,-bootstrap,-or-semantic-ui--e3473190
 
   이 정도는 간단하게 직접 만들수도? [링크](https://velog.io/@altmshfkgudtjr/Custom-Tooltip-%EC%A0%9C%EC%9E%91%EA%B8%B0)
   
@@ -49,7 +49,7 @@ https://www.newline.co/@dmitryrogozhny/4-ways-to-show-tooltips-in-react-with-rea
 
   [모듈 - toastr 라이브러리](https://nowonbun.tistory.com/565)
  [toastr 라이브러리 활용2](https://www.leafcats.com/113)
- 
+
   [raw js로 구현](https://marshall-ku.tistory.com/307)
 [notifications.js](https://www.cssscript.com/minimal-notification-popup-pure-javascript/#comments)
 
@@ -57,17 +57,47 @@ https://www.newline.co/@dmitryrogozhny/4-ways-to-show-tooltips-in-react-with-rea
 
 * Avatar
 시드 넣어주면 랜덤 아바타 만들어주는 - 간단한 프로젝트에 적격
-![](avatars.jpg)
+![](./img/avatars.jpg)
 [여기서](https://www.youtube.com/watch?v=J5x3OMXjgMc&ab_channel=Fireship) 6분대에서 사용함.
 
 <br>
 
 * inline-toolbar - editor.js
-![](inline-toolbar.jpg)
+![](./img/inline-toolbar.jpg)
 https://editorjs.io/enable-inline-toolbar
 
 <br>
 
 * block settings - editor.js
-![](block-settings.png)
+![](./img/block-settings.png)
 https://editorjs.io/making-a-block-settings
+
+
+
+<br>
+
+* Optimistic UI - 메시지가 잘 전달되었는지 유저에게 보여주는 UI/UX
+
+  ![](./img/OptimisticUI.png)
+
+  https://uxplanet.org/optimistic-1000-34d9eefe4c05
+
+
+
+<br>
+
+* Drag and drop
+
+  ![](./img/DragAndDrop.jpg)
+
+https://stackoverflow.com/questions/20926551/recommended-way-of-making-react-component-div-draggable
+https://github.com/react-dnd/react-dnd
+
+
+
+<br>
+
+* material table
+
+  https://material-table.com/#/
+
