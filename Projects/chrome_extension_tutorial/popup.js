@@ -1,3 +1,10 @@
+chrome.tabs.create({
+    url: 'index.html'
+});
+
+throw "NOT REACHABLE!";
+console.log("NOT REACHABLE");
+
 // Initialize button with user's preferred color
 let changeColor = document.getElementById("changeColor");
 
