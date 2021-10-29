@@ -9,8 +9,8 @@ http://taewan.kim/post/markdown/#link
 ---
 # 자주쓰는 Markdown snippet
 * 들여쓰기 (Indent)
-Obsidian에서는 그냥 Space 누르니까 알아서 맞춰지던데?
-안된다면 ```&nbsp; (1칸) 혹은 &emsp; (3칸)``` 노가다 ([참고](https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup))
+  Obsidian에서는 그냥 Space 누르니까 알아서 맞춰지던데?
+  안된다면 ```&nbsp; (1칸) 혹은 &emsp; (3칸)``` 노가다 ([참고](https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup))
 
   ex) 하이&emsp;호&nbsp;호
 
@@ -48,13 +48,13 @@ Obsidian에서는 그냥 Space 누르니까 알아서 맞춰지던데?
 
 <details>
   <summary>Click to expand!</summary>
-  
+
   ## Heading
   1. A numbered
   2. list
      * With some
      * Sub bullets
-</details>
+     </details>
 
 <br>
 
@@ -63,8 +63,36 @@ Obsidian에서는 그냥 Space 누르니까 알아서 맞춰지던데?
 
 <br>
 
+* 밑줄 (underline)
+
+  <u>밑줄 예시</u>
+
+<br>
+
+## Center align
+<center>Centered text</center>
+
+https://stackoverflow.com/questions/14051715/markdown-native-text-alignment
+
+
+
+
 ---
 # 기타
+
+Makrdown project directory tree generator
+
+https://woochanleee.github.io/project-tree-generator/
+
+
+
+(Converting to PDF) Add page break
+
+https://github.com/typora/typora-issues/issues/118
+
+`<div style="page-break-after: always;"></div>`
+
+
 
 ### 정적 블로그 만들기
 
