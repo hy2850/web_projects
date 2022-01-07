@@ -1,12 +1,33 @@
 # Closure
 함수를 리턴할 때, 그 함수가 속해있던 context (변수 정보 등을 담고 있음)도 같이 따라옴.
+
 counter 변수 같은거 필요할 때, 전역변수 사용할 필요 없이 closure 활용하면 private 변수처럼 카운트 저장하는 변수 관리 가능
 
 이거 읽고 예제 코드 몇 번 짜보면 대충 이해됨
 https://poiemaweb.com/js-closure
 
+> 자신을 포함하고 있는 외부함수보다 내부함수가 더 오래 유지되는 경우, 외부 함수 밖에서 내부함수가 호출되더라도 외부함수의 지역 변수에 접근할 수 있는데 이러한 함수를 클로저(Closure)라고 부른다.
+
 MDN doc
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Closures
+
+>“A closure is the combination of a function and the lexical environment within which that function was declared.”
+>클로저는 함수와 그 함수가 선언됐을 때의 렉시컬 환경(Lexical environment)과의 조합이다.
+
+
+```js
+// closure 활용 예제 - https://edabit.com/challenge/QkuiL7XApt2RMQqTJ
+function makePlusFunction(baseNum) {
+	return n=>baseNum+n;
+}
+const plusFive = makePlusFunction(5);
+plusFive(2); // 7
+plusFive(-8); // -3
+```
+
+
+
+📝 면접 문제 - Closure 개념 설명, Closure 활용해서 Java의 private 접근제한자와 비슷한 기능 구현 가능? (conventional하게 쓰이는 무슨 패턴이 있나봄)
 
 <br>
 

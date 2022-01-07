@@ -1,6 +1,12 @@
 # Moment
 Good docs : https://momentjs.com/docs/
 
+[[React\] 리액트에서 react-moment, moment.js 사용하여 실시간으로 변경되는 시간 만들기](https://haranglog.tistory.com/10)
+
+
+
+---
+
 single point in time
 
 const now = moment();
@@ -9,7 +15,7 @@ const specific_date = moment('2017-12-31', 'YYYY-MM-DD');
 <br>
 
 ##### Manipulate
-const added = moment().add(180, 'seconds'); // returns modified moment
+const added = moment().add(180, 'seconds'); // returns modified moment ('s' is also fine)
 
 * subtract - btw moment  (or duration) and constant amount of time
 diff - btw two moments (or durations)
@@ -36,7 +42,6 @@ duration.subtract(1000, "milliseconds");
 console.log(duration.asSeconds());  // conv to seconds
 ```
 
-
 <br>
 
 * converting moment to seconds - use duration
@@ -44,13 +49,3 @@ console.log(duration.asSeconds());  // conv to seconds
 myVar = moment.duration(myVar).asSeconds()
 ```
 
-
-<br><br>
-
-
-
-Hooks와 setInterval
-https://haranglog.tistory.com/10?category=926702
-https://overreacted.io/making-setinterval-declarative-with-react-hooks/
-
-web worker
