@@ -1,7 +1,9 @@
-Point
-* App에서 raw JS로 기존 데이터 처리하는 것 (../React/Immutability 참고; 관련 모듈 쓰면 더편하게 가능)
-* App에서는 fetch로, server는 express app의 get, post, patch, delete 등 함수로 DB와 연결
+REST API CRUD 구현 코드 정리; 클라이언트 - 서버쪽 모두
 
+Point
+
+* App에서 raw JS로 기존 데이터 처리하는 것 (../React/Immutability 참고; 관련 모듈 쓰면 더편하게 가능)
+* ⭐️ App에서는 fetch로, server는 express app의 get, post, patch, delete 등 함수로 DB와 연결
 
 <br>
 

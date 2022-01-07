@@ -22,3 +22,16 @@ React에서 쓸때 주의사항
 https://stackoverflow.com/questions/49579028/adding-an-env-file-to-react-project
 'REACT_APP_'을 환경변수 이름 앞에 꼭 붙여주기
 + 환경 변수 로딩 제대로 안되면 app restart
+
+<br>
+
+Typescript에서 쓸때 주의사항
+
+```TS
+import * as dotenv from 'dotenv'
+dotenv.config()
+```
+
+이렇게 안쓰면 에러뜨더라.
+
+[ES6: "import * as alias" vs "import alias"](https://stackoverflow.com/questions/45697628/es6-import-as-alias-vs-import-alias) - 후자는 'alias' 모듈에 default export 없으면 undefined

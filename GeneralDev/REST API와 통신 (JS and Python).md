@@ -6,6 +6,14 @@ Resource : URI (서버 주소)
 Verb : HTTP 메소드 (GET, POST, PUT, DELETE)
 Representation
 
+테스트해볼 mocking API 사이트
+
+https://jsonplaceholder.typicode.com/guide/
+
+https://stackoverflow.com/questions/5725430/http-test-server-accepting-get-post-requests
+
+
+
 
 
 ### 데이터 보내기
