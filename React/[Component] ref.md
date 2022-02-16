@@ -35,6 +35,14 @@ https://blog.logrocket.com/post-hooks-guide-react-call-order/#:~:text=A%20word%2
   + useRef 값 바꾸고 바로 바뀐 값 조회 가능 (async하게 일어나서 다음 렌더링때나 바뀐 값 확인 가능한 setState와 다른 점)
 
   [벨로퍼드 - useRef 로 컴포넌트 안의 변수 만들기](https://react.vlpt.us/basic/12-variable-with-useRef.html)
+  
+  
 
+(Notion에 정리했던거 여기도 복붙) useRef - 2가지 기능
 
+- Referencing Values with Refs (re-render에도 변함없이 유지되는 값 저장) https://beta.reactjs.org/learn/referencing-values-with-refs
+
+- Manipulating the DOM with Refs (DOM element 제어)
+
+  https://beta.reactjs.org/learn/manipulating-the-dom-with-refs
 
