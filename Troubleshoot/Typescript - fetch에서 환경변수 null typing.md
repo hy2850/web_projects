@@ -37,5 +37,8 @@ useEffect(() => {
 	.then(res => res.json())
 	.then(data => setTodoList(data))
 }, [])
+
+
+// 3. optional chaning(?.) 사용?
 ```
 
